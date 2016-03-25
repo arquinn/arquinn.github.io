@@ -43,9 +43,5 @@ ul.posts li {
 }
 
 li.active  {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
     color: #999;
 }
