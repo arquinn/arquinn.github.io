@@ -1,2 +1,3 @@
 name: Andrew Quinn, Ph.d Student
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
