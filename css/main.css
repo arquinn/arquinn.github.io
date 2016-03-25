@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-active  {
+li.active  {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
