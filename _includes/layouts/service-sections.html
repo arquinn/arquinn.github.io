@@ -1,0 +1,36 @@
+% for section in site.data.service-sections %}
+  {% if page.service-category == section.service-category %}
+    <div class="row section">
+      <div class="col-sm-6">
+        <h2>{{ section.title }}</h2>
+        <!--
+        To properly render markdown includes as HTML, the include tag must be
+        captured as a string, and this must be passed to the `markdownify` filter.
+        -->
+        {% capture section_description %}{% include services/{{ section.description }} %}{% endcapture %}
+        {{ section_description | markdownify }}
+
+        <!--
+        The following will not parse the markdown include - it won't be properly
+        rendered into HTML and will display as the original markdown.
+        -->
+        {% comment %}
+        {% include services/{{ section.description }} %}      
+        {% endcomment %}
+      </div>
+      <div class="col-sm-5 col-sm-offset-1">
+        <div class="thumbnail">
+          <!--
+          Build the image markup for this section. If an image-caption has been
+          defined, display it.
+          -->
+          <img src="{{ site.baseurl }}/{{ section.image }}" title="{{ section.title }}" alt="{{ section.title }}" class="img-responsive">
+          {% if nil != service.img-caption %}
+            <div class="img-caption">{{ service.img-caption }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <hr>
+  {% endif %}
+{% endfor %}
