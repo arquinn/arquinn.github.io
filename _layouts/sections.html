@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
+	<html>
+		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-  <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-            <ul class="nav navbar-nav navbar-right">
+		<body>
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div>
+          <ul class="nav navbar-nav navbar-right">
             <li>
-              <a class="page-scroll" href="#about">About</a>
+              <a class="page-scroll" href="#test1">Test1</a>
             </li>
             <li>
-              <a class="page-scroll" href="#services">Services</a>
-            </li>
-            <li>
-              <a class="page-scroll" href="#contact">Contact</a>
+              <a class="page-scroll" href="#test2">Test2</a>
             </li>
           </ul>
+      
+      <!-- /.container-fluid -->
     </nav>
-    {{ content }}
-  </body>
-</html>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:arquinn@umich.edu">email</a></li>
+	        		<li><a href="https://github.com/arquinn">github.com/arquinn</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
