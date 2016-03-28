@@ -5,6 +5,8 @@ body {
 
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color: black;
+    color: white;
     list-style: none;
     font-weight: bold;
     padding-left: 50%;
