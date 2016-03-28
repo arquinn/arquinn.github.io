@@ -15,6 +15,7 @@ body {
  .fixed { 
   position: fixed;
   top: 0em;
+  left:50%;
  }
 
 nav ul li {
