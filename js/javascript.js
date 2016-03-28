@@ -2,13 +2,8 @@ $('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
-        if ($(this).next().is(':visible')) {
-            $('li').filter(".answer").slideUp();
-        }
-        else {
             $('li').filter(".answer").slideUp();
             $(this).nextUntil('.question').slideDown();
-        }
     });
 
 $('li.answer').click(
