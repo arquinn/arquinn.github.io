@@ -2,7 +2,7 @@ $('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
-        $('li'.filter(".answer").slideUp();
+        $('li'.filter(".answer")).slideUp();
         $(this).nextUntil('.question').slideDown();
     });
 
