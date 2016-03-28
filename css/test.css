@@ -9,7 +9,7 @@ body {
     list-style: none;
     font-weight: bold;
     padding-top: 100px;
-    padding-right: 1em;
+    float: right;
  }
  
  .fixed { 
@@ -17,6 +17,7 @@ body {
   top: 0;
   right: 1em;
   width: 100%;
+  float: right;
  }
 
 nav ul li {
