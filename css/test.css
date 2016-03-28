@@ -9,6 +9,8 @@ body {
     list-style: none;
     font-weight: bold;
     padding: 0;
+    height: 2000px;
+    padding-top: 100px; 
  }
  
  .fixed { 
