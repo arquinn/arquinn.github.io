@@ -6,7 +6,11 @@ $('li.question').click(
         $(this).nextUntil('.question').slideDown();
     });
 
-
+$('li.answer').click(
+    function(){
+        $(this).nextUntil('.question').slideUp();
+    });
+    
 var stickyOffset = $('.navbar').offset().top;
 $(window).scroll(function(){
   var sticky = $('.navbar'),
