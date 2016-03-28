@@ -8,6 +8,7 @@ body {
     list-style: none;
     font-weight: bold;
     padding-left: 50%;
+    padding-top: 0em;
  }
  
  .fixed { 
@@ -15,6 +16,7 @@ body {
   left: 50%;
   padding-left:0;
   top: 0em;
+  padding-top:0em;
   }
 
 nav ul li {
