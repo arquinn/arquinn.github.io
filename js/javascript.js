@@ -1,4 +1,4 @@
-$('li:not(".question")').hide();
+$('li:is(".answer")').hide();
 
 $('li.question').click(
     function(){
