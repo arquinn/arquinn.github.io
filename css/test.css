@@ -31,8 +31,10 @@ ul.faq {
 .question {
     font-weight: bold;
     color: black;
-    font-size: 1.5em;
+    font-size: 3em;
     line-height: 1.4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border-top:2px solid black;
 }
 
