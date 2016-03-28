@@ -31,9 +31,13 @@ ul.faq {
 }
 
 .navbar-fixed { 
-  position: fixed;
+  padding-top: 100px;
   top: 1em;
   right: 1em;
+ }
+ 
+ .fixed { 
+  position: fixed;
  }
 
 a {
