@@ -9,15 +9,12 @@ body {
     list-style: none;
     font-weight: bold;
     padding-top: 100px;
-    float: right;
  }
  
  .fixed { 
   position: fixed;
   top: 0;
   right: 1em;
-  width: 100%;
-  float: right;
  }
 
 nav ul li {
