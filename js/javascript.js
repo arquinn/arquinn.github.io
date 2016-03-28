@@ -2,7 +2,7 @@ $('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
-        if ($(this).next().height() > 1) {
+        if ($(this).next().is(':visible')) {
             $('li').filter(".answer").slideUp();
         }
         else {
