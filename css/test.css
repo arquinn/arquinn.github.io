@@ -32,8 +32,6 @@ ul.faq {
 
 .navbar-fixed { 
   padding-top: 100px;
-  top: 1em;
-  right: 1em;
  }
  
  .fixed { 
@@ -53,7 +51,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
+p, .answer, .question{
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
