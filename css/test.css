@@ -12,6 +12,7 @@ body {
  
  .fixed { 
   position: fixed;
+  top: 0;
  }
 
 nav ul li {
