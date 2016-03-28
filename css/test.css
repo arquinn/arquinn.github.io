@@ -13,10 +13,20 @@ nav ul li {
     margin-right: 20px;
 }
 
+.question {
+    font-weight: bold;
+    color: black;
+}
+
+.answer {
+    font-weight: bold;
+    color: #999;
+}
+
 .navbar-fixed { 
   position: fixed;
   top: 1em;
-  right: %50;
+  right: 1em;
  }
 
 a {
