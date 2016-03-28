@@ -1,37 +1,15 @@
-html {
-     overflow-y: scroll;
- }
- 
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li {
     display: inline;
     margin-right: 20px;
-}
-
-ul.faq { 
-    list-style: none;
-}
-.question {
-    font-weight: bold;
-    color: black;
-     font-size: 1.5em;
-    line-height: 1.4em;
-}
-
-.answer {
-    font-weight: bold;
-    color: #999;
-     font-size: 1.5em;
-    line-height: 1.4em;
 }
 
 .navbar-fixed { 
@@ -43,6 +21,23 @@ ul.faq {
   top: 0;
   right: 0;
  }
+
+ul.faq { 
+    list-style: none;
+}
+.question {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+.answer {
+    font-weight: bold;
+    color: #333;
+     font-size: 1.5em;
+    line-height: 1.4em;
+}
 
 a {
     text-decoration: none;
@@ -59,8 +54,4 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
