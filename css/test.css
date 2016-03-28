@@ -5,7 +5,6 @@ body {
 
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background-color: yellow;
     list-style: none;
     font-weight: bold;
     padding-left: 50%;
@@ -15,8 +14,7 @@ body {
  .fixed { 
   position: fixed;
   top: 0em;
-  left:50%;
- }
+  }
 
 nav ul li {
     display: inline;
