@@ -4,6 +4,7 @@ body {
 }
 nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    background-color: #999;
     list-style: none;
     font-weight: bold;
 }
