@@ -4,7 +4,7 @@ body {
 }
 nav ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background-color: #999;
+    background-color: yellow;
     list-style: none;
     font-weight: bold;
 }
@@ -14,13 +14,14 @@ nav ul li {
 }
 
 .navbar-fixed { 
-  padding-top: 100px;
+    top: 100px;
+    right: 1em;
  }
  
  .fixed { 
   position: fixed;
   top: 0;
-  right: 0;
+  right: 1em;
  }
 
 ul.faq { 
