@@ -23,11 +23,15 @@ ul.faq {
 .question {
     font-weight: bold;
     color: black;
+     font-size: 1.5em;
+    line-height: 1.4em;
 }
 
 .answer {
     font-weight: bold;
     color: #999;
+     font-size: 1.5em;
+    line-height: 1.4em;
 }
 
 .navbar-fixed { 
@@ -51,7 +55,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p, .answer, .question{
+p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
