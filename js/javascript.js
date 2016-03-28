@@ -8,7 +8,7 @@ $('li.question').click(
 
 $('li.answer').click(
     function(){
-        $(this).nextUntil('.question').slideUp();
+        $(this).filter("".answer").slideUp();
     });
     
 var stickyOffset = $('.navbar').offset().top;
