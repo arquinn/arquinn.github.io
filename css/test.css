@@ -8,8 +8,7 @@ body {
     background-color: yellow;
     list-style: none;
     font-weight: bold;
-    padding: 0;
-    height: 2000px;
+    padding-left: 50%;
     padding-top: 100px; 
  }
  
