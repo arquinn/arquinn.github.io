@@ -7,10 +7,11 @@ $('li.question').click(
     });
 
 
+var stickyOffset = $('.navbar').offset().top;
 $(window).scroll(function(){
-  var sticky = $('.navbar-fixed'),
+  var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
-
-  if (scroll >= 100) sticky.addClass('fixed');
+    
+  if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
