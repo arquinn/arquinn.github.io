@@ -5,3 +5,12 @@ $('li.question').click(
         $('li:not(".question")').slideUp();
         $(this).nextUntil('.question').slideDown();
     });
+
+
+$(window).scroll(function(){
+  var sticky = $('.navbar-fixed'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= 100) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+});
