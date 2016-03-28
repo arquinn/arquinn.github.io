@@ -2,18 +2,12 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul{
+
+.navbar-fixed { 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: yellow;
     list-style: none;
     font-weight: bold;
-}
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.navbar-fixed { 
     top: 100px;
     right: 1em;
  }
@@ -24,6 +18,10 @@ nav ul li {
   right: 1em;
  }
 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 ul.faq { 
     list-style: none;
 }
