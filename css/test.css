@@ -3,24 +3,19 @@ body {
     width: 70%;
 }
 
-.navbar-fixed { 
+.navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: yellow;
     list-style: none;
     font-weight: bold;
-    top: 100px;
+    padding-top: 100px;
     right: 1em;
  }
  
  .fixed { 
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  background-color: yellow;
-  list-style: none;
-  font-weight: bold;
-  right: 1em;
   position: fixed;
   top: 0;
-  right: 1em;
+  left: 0;
  }
 
 nav ul li {
