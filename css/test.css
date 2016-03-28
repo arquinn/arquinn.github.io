@@ -12,6 +12,8 @@ body {
  
  .fixed { 
   position: fixed;
+  left: 50%;
+  padding-left:0;
   top: 0em;
   }
 
