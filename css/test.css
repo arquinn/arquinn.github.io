@@ -18,7 +18,7 @@ body {
     width: 100%;
  }
  
- .fixed { 
+.fixed { 
   position: fixed;
   top: 0;
   }
@@ -38,8 +38,19 @@ ul.faq {
     line-height: 1.4em;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top:10px solid black;
 }
+
+.beer { 
+    border-top:10px solid #bfbfbf;
+    background-color: #e62e00;
+}
+
+.invest{ 
+    border-top:10px solid #e62e00;
+    background-color: #bfbfbf;
+}
+
+
 hr {
     display: block;
     border: 0;
