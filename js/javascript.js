@@ -2,9 +2,13 @@ $('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
-            alert($(this).next().css('display'))
-            $('li').filter(".answer").slideUp();
-            $(this).nextUntil('.question').slideDown();
+            if($(this).next().css('display') == 'none') {
+                $('li').filter(".answer").slideUp();
+                $(this).nextUntil('.question').slideDown(); 
+            }
+            else {
+             $('li').filter(".answer").slideUp();
+            }
     });
 
 $('li.answer').click(
