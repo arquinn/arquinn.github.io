@@ -2,7 +2,7 @@ $('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
-            console.log(getComputedStyle($(this).next(),null))
+            console.log($(this).next().style.display)
             $('li').filter(".answer").slideUp();
             $(this).nextUntil('.question').slideDown();
     });
