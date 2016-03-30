@@ -15,6 +15,7 @@ body {
     padding-top: .0625em;
     padding-bottom: .0625em;
     padding-left: 50%;
+    width: 100%;
  }
  
  .fixed { 
@@ -55,6 +56,7 @@ hr {
 .blurb { 
     margin: 60px auto;
     width: 70%;   
+    padding: 3em;
 }
 
 a {
