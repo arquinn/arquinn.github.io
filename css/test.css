@@ -25,6 +25,8 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
+
 ul.faq { 
     list-style: none;
 }
@@ -37,7 +39,12 @@ ul.faq {
     padding-bottom: 1em;
     border-top:2px solid black;
 }
-
+hr {
+    display: block;
+    border: 0;
+    border-top: 2px solid black;
+    padding: 0;
+}
 .answer {
     font-weight: bold;
     color: #333;
