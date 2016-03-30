@@ -41,11 +41,15 @@ ul.faq {
     padding-left: 1em;
 }
 
+.beerq{
+        border-top:20px solid #bfbfbf;
+}
 .beer { 
-    border-top:20px solid #bfbfbf;
     background-color: #e62e00;
 }
-
+.investq{ 
+    border-top:20px solid #e62e00;
+}
 .invest{ 
     border-top:20px solid #e62e00;
     background-color: #bfbfbf;
