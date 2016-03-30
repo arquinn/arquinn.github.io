@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: black;
 }
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -25,7 +26,6 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
-
 
 ul.faq { 
     list-style: none;
@@ -55,9 +55,6 @@ hr {
 a {
     text-decoration: none;
     color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
