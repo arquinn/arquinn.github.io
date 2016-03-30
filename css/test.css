@@ -1,6 +1,4 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     background-color: #a6a6a6;
 }
 .odd{
@@ -54,6 +52,11 @@ hr {
     color: #333;
     font-size: 1.5em;
     line-height: 1.4em;
+}
+
+.blurb { 
+    margin: 60px auto;
+    width: 70%;   
 }
 
 a {
