@@ -38,25 +38,19 @@ ul.faq {
     line-height: 1.4em;
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: 1em;
 }
 
 .beer { 
-    border-top:10px solid #bfbfbf;
+    border-top:20px solid #bfbfbf;
     background-color: #e62e00;
 }
 
 .invest{ 
-    border-top:10px solid #e62e00;
+    border-top:20px solid #e62e00;
     background-color: #bfbfbf;
 }
 
-
-hr {
-    display: block;
-    border: 0;
-    border-top: 10px solid black;
-    padding: 0;
-}
 .answer {
     font-weight: bold;
     color: #333;
@@ -65,7 +59,8 @@ hr {
 }
 
 .blurb { 
-    margin: 60px auto;
+    margin-left: 60px;
+    margin-right: 60px;
     width: 70%;   
     padding: 3em;
 }
