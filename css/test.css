@@ -3,6 +3,10 @@ body {
     width: 70%;
     background-color: #a6a6a6;
 }
+.odd{
+    background-color: #e62e00;
+}
+
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: black;
