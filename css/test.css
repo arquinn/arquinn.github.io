@@ -1,5 +1,6 @@
 body {
-    background-color: #a6a6a6;
+    background-color: #bfbfbf;
+    margin:0px;
 }
 .odd{
     background-color: #e62e00;
@@ -39,12 +40,12 @@ ul.faq {
     line-height: 1.4em;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top:2px solid black;
+    border-top:10px solid black;
 }
 hr {
     display: block;
     border: 0;
-    border-top: 2px solid black;
+    border-top: 10px solid black;
     padding: 0;
 }
 .answer {
@@ -63,8 +64,9 @@ a {
     text-decoration: none;
     color: #999;
 }
-h1 {
-    font-size: 3em;
+h2 {
+    font-size: 6em;
+    color: #999;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
