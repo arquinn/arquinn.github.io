@@ -42,16 +42,16 @@ ul.faq {
 }
 
 .beerq{
-        border-top:20px solid #bfbfbf;
+        border-top:20px solid #e62e00;
 }
 .beer { 
-    background-color: #e62e00;
+    background-color: #bfbfbf;
 }
 .investq{ 
-    border-top:20px solid #e62e00;
+    border-top:20px solid #bfbfbf;
 }
 .invest{ 
-    background-color: #bfbfbf;
+    background-color:  #e62e00;
 }
 
 .answer {
