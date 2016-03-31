@@ -16,17 +16,13 @@ layout: sections
     <div class="blurb">
         <h2 class="section-heading">Contact Us</h2>
         <p>BuzzSaw Brew Co is seeking investors to open its doors. To learn more about the opportunity, please fill out introductory information below, and see the investors section below:</p>
- <form action="https://formspree.io/andrew@buzzsawbrewingco.com">
+ <form action="https://formspree.io/andrew@buzzsawbrewingco.com" method="POST">
   Name:
-  <input type="text" name="name"><br>
-  Email Adress:
-  <input type="text" name="email_address"><br>
-  Phone Number:
-  <input type="text" name="phone_number"><br>
-  Physical Adress:
-  <input type="text" name="address"><br>
-  Desired Investment:
-  <input type="text" name="desired_investment"><br>
+  <input type="textbox" name="name" value="Name" onfocus="if (this.value=='Name') this.value='';"/>
+  <input type="textbox" name="email_address" value="Email Address" onfocus="if (this.value=='Email Address') this.value='';"/>
+  <input type="textbox" name="phone_number" value="Phone Number" onfocus="if (this.value=='Phone Number') this.value='';"/>
+  <input type="textbox" name="address" value="Physical Address" onfocus="if (this.value=='Physical Address') this.value='';"/>
+  <input type="textbox" name="desired_investment" value="Desired Investment" onfocus="if (this.value=='Desired Investment') this.value='';"/>
   <input type="submit" value="Submit">
 </form> 
 
