@@ -15,12 +15,12 @@ body {
     padding-top: .0625em;
     padding-bottom: .0625em;
     padding-left: 50%;
-    width: 100%;
  }
  
 .fixed { 
   position: fixed;
   top: 0;
+  width: 100%;
   }
 
 nav ul li {
