@@ -45,15 +45,8 @@ ul.faq {
         border-top:20px solid #e62e00;
 }
 .beer { 
-    background-color: #bfbfbf;
+    background: rgba(204, 204, 204, 0.0);
 }
-.investq{ 
-    border-top:20px solid #bfbfbf;
-}
-.invest{ 
-    background-color:  #e62e00;
-}
-
 .answer {
     font-weight: bold;
     color: #333;
