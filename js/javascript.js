@@ -21,6 +21,12 @@ $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
     
-  if (scroll >= stickyOffset) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
+  if (scroll >= stickyOffset){
+    sticky.addClass('fixed');
+    sticky.removeClass('absolute');
+    }
+  else {
+    sticky.removeClass('fixed');
+    sticky.addClass('absolute');
+  }
 });
