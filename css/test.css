@@ -17,9 +17,9 @@ blankrect {
     background-color: #e62e00;
 }
 
-.beersodd { 
-    background-color:  rgba(204, 204, 204, 0.0);
-}   
+.even { 
+    background-color: #bfbfbf;   
+}
 
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -71,7 +71,9 @@ ul.faq {
         border-top:20px solid #e62e00;
 }
 .beer { 
-    background: rgba(204, 204, 204, 0.0);
+    background: url("../FINAL_LOGO_4_7_16.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .answer {
     font-weight: bold;
