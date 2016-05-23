@@ -6,6 +6,10 @@ body {
     background-color: #e62e00;
 }
 
+.beerodd { 
+    background-color:  rgba(204, 204, 204, 0.0);
+}   
+
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: black;
