@@ -29,6 +29,7 @@ body {
 
 image { 
     position: fixed;
+    width: 100%;
 }   
 
 nav ul li {
