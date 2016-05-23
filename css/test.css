@@ -27,6 +27,10 @@ body {
   width: 100%;
   }
 
+image { 
+    position: fixed;
+}   
+
 nav ul li {
     display: inline;
     margin-right: 20px;
