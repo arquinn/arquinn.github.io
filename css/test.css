@@ -7,7 +7,7 @@ body {
     margin:0px;
 }
 
-blankrect { 
+.blankrect { 
     width="1";
     height="900"
     color: rgba(204,204,204,0.0);
@@ -38,10 +38,6 @@ blankrect {
   width: 100%;
   }
 
-image { 
-    position: fixed;
-    width: 100%;
-}   
 
 nav ul li {
     display: inline;
