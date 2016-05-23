@@ -6,6 +6,14 @@ body {
     background-size: cover;
     margin:0px;
 }
+
+blankrect { 
+    width="1";
+    height="900"
+    color: rgba(204,204,204,0.0);
+}
+
+
 .odd{
     background-color: #e62e00;
 }
