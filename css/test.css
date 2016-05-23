@@ -32,12 +32,6 @@ blankrect {
     padding-left: 50%;
  }
  
-.absolute { 
-    position: absolute;
-    top: 900px;
-    margin-bottom:0;
-}
- 
 .fixed { 
   position: fixed;
   top: 0;
