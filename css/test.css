@@ -13,7 +13,6 @@ blankrect {
     color: rgba(204,204,204,0.0);
 }
 
-
 .odd{
     background-color: #e62e00;
 }
@@ -32,6 +31,12 @@ blankrect {
     padding-bottom: .0625em;
     padding-left: 50%;
  }
+ 
+.absolute { 
+    position: absolute;
+    top: 900px;
+    margin-bottom:0;
+}
  
 .fixed { 
   position: fixed;
