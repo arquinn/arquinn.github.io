@@ -4,12 +4,12 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0px;
+    margin:0px auto;
 }
 
 .blankrect { 
-    width: "1px";
-    height: "900px";
+    width: 100%;
+    height: 900px;
     color: rgba(204,204,204,0.0);
 }
 
