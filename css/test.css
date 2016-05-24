@@ -8,8 +8,8 @@ body {
 }
 
 .blankrect { 
-    width="1px";
-    height="900px";
+    width: "1px";
+    height: "900px";
     color: rgba(204,204,204,0.0);
 }
 
