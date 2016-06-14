@@ -14,7 +14,7 @@ body {
 }
 
 .odd{
-    background-color: #e62e00;
+    background-color: #971418;
 }
 
 .even { 
@@ -59,7 +59,7 @@ ul.faq {
 }
 
 .beerq{
-        border-top:20px solid #e62e00;
+        border-top:20px solid #971418;
 }
 .beer { 
     background: url("../FINAL_LOGO_4_7_16.jpg") no-repeat;
