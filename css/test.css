@@ -21,10 +21,6 @@ body {
     background-color: #bfbfbf;   
 }
 
-.center { 
-    text-align: center;   
-}
-
 .navbar{ 
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: black;
@@ -50,6 +46,7 @@ nav ul li {
 
 ul.faq { 
     list-style: none;
+    padding: 0em;
 }
 .question {
     font-weight: bold;
@@ -58,7 +55,7 @@ ul.faq {
     line-height: 1.4em;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 1em;
+    padding-left: 0em;
 }
 
 .beerq{
@@ -77,11 +74,12 @@ ul.faq {
 }
 
 .blurb { 
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: -35%;
     width: 70%;   
     padding: 3em;
     left: 50%;
+    position: relative;
+    padding-left: 0;
 }
 
 a {
