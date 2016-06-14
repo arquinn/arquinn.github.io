@@ -65,6 +65,8 @@ ul.faq {
 .beer { 
     background-attachment: fixed;
     background-size: cover;
+    background-image: url("../FINAL_LOGO_4_7_16.jpg");
+    background-position: center;
 }
 .answer {
     font-weight: bold;
