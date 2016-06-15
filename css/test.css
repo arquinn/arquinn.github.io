@@ -58,6 +58,11 @@ nav ul li {
 ul.faq { 
     list-style: none;
     padding: 0em;
+    margin-left: -35%;
+    width: 70%;   
+    left: 50%;
+    position: relative;
+    z-index: 1;
 }
 .question {
     font-weight: bold;
@@ -86,12 +91,7 @@ ul.faq {
 }
 
 .blurb { 
-    margin-left: -35%;
-    width: 70%;   
-    padding: 3em;
-    left: 50%;
-    position: relative;
-    padding-left: 0;
+    padding: 15;
     z-index: 1;
 }
 
