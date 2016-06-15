@@ -93,6 +93,7 @@ ul.faq {
 .blurb { 
     padding: 15;
     z-index: 1;
+    max-width: 970px;
 }
 
 a {
