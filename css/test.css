@@ -39,6 +39,16 @@ body {
   z-index: 7;
   }
 
+.rowone {
+  width: 50%;
+  font-size: 21px;
+}
+
+.rowtwo { 
+  margin-left: 33.33333333%;
+  width: 6.66666666666%;
+  font-size: 10px;
+}
 
 nav ul li {
     display: inline;
@@ -83,7 +93,6 @@ ul.faq {
     position: relative;
     padding-left: 0;
     z-index: 1;
-    
 }
 
 a {
@@ -98,5 +107,6 @@ h2 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #999;
+    text-align:justify;
 }
