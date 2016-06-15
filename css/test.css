@@ -97,6 +97,9 @@ ul.faq {
     padding: 15px;
     z-index: 1;
     max-width: 970px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a {
