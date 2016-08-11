@@ -64,11 +64,12 @@ nav ul li {
 ul.faq { 
     list-style: none;
     padding: 0em;
-    margin-left: -35%;
-    width: 70%;   
+    margin-left: -50%;
+    width: 100%;   
     left: 50%;
     position: relative;
     z-index: 1;
+    text-align: center;
 }
 .question {
     font-weight: bold;
