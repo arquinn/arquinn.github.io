@@ -23,9 +23,10 @@ $(window).scroll(function(){
       scroll = $(window).scrollTop();
 
   var about = $('#About')
+  var contact = $("#Contact")
+  var beer = $("#Beer")
   
-  alert(about.attr('id'))
-  alert(about.length)
+  alert(about.offset())
   
   var aboutOffset = $( '#About' ).offset().top;
   var contactOffset = $( "#Contact" ).offset().top;
