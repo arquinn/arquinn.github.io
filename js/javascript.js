@@ -16,14 +16,16 @@ $('li.answer').click(
         $(this).filter(".answer").slideUp();
     });
   
-console.log( $("#About"))
-
 var stickyOffset = $('.navbar').offset().top;
 
 $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
-    
+
+  var about = $("#About")
+  
+  console.log(about)
+  
   var aboutOffset = $( "#About" ).offset().top;
   var contactOffset = $( "#Contact" ).offset().top;
   var beerOffset = $( "#Beer" ).offset().top;
