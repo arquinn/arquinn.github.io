@@ -30,14 +30,19 @@ $(window).scroll(function(){
   var about = $('#About');
   var contact = $("#Contact");
   var beer = $("#Beers");
+  
+  
+  var aleft = contact.offset().left;
   var coff = contact.offset().top;
-  var boff = beer.offset().top;
+  var cleft = contact.offset().left;
+  var btop = beer.offset().top;
+  var bleft = beer.offset().left;
   var indicator = $("#indicator");
   
-  if ((boff - scroll) < 0) indicator.attr("left", 100)
-  else if ((coff - scroll) < 0) indicator.attr("left",200)
-  else indicator.attr("left",300)
+  if ((btop - scroll) < 0) indicator.attr("left", bleft)
+  else if ((ctop - scroll) < 0) indicator.attr("left",cleft)
+  else indicator.attr("left",aleft)
     
       
   
-});
+    });
