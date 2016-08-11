@@ -125,6 +125,7 @@ ul.faq {
     background-size: contain;
     background-image: url("../FINAL_LOGO_4_7_16.jpg");
     background-position: center;
+    background-repeat: no-repeat
 }
 .answer {
     font-weight: bold;
