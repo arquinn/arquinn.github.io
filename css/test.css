@@ -36,10 +36,13 @@ input {
 
 .odd{
     background-color: #971418;
+    color: #999;
 }
 
 .even { 
     background-color: #bfbfbf;   
+    color:#000;
+
 }
 
 .navbar{ 
@@ -151,15 +154,9 @@ a {
 }
 h2 {
     font-size: 100px;
-    color: #999;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
-    color: #999;
     text-align:justify;
-}
-
-.contact{
-    color:rgb(0,0,0);
 }
