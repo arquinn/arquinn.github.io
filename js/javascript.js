@@ -36,7 +36,7 @@ $(window).scroll(function(){
   
   if ((btop - scroll) < 0) indicator.css("left", bleft)
   else if ((ctop - scroll) < 0) indicator.css("left",cleft)
-  else indicator.attr("left",aleft)
+  else indicator.css("left",aleft)
     
       
   
