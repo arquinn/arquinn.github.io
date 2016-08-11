@@ -3,7 +3,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80%;
     margin:0px auto;
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -109,7 +109,7 @@ ul.faq {
 }
 .beer { 
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 80%;
     background-image: url("../FINAL_LOGO_4_7_16.jpg");
     background-position: center;
 }
