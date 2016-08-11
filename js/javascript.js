@@ -17,9 +17,9 @@ $('li.answer').click(
     });
   
 
-var aboutOffset = $("#about").offset().top;
-var contactOffset = $("#contact").offset().top;
-var beerOffset = $("#beer").offset().top;
+var aboutOffset = $("#About").offset().top;
+var contactOffset = $("#Contact").offset().top;
+var beerOffset = $("#Beer").offset().top;
 var stickyOffset = $('.navbar').offset().top;
 
 $(window).scroll(function(){
