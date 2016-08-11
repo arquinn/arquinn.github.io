@@ -9,7 +9,8 @@ body {
 }
 
 .slider {
-    background-image: url("../unamed.png");
+    width: 100px;
+    position: absolute;
 }
 
 .page { 
