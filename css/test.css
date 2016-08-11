@@ -8,12 +8,16 @@ body {
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+form { 
+    text-align: center;
+}
 
 input { 
-    width: 50%;   
+    width: 70%;   
     border: 2px;
     border-radius: 4px;
-    margin: auto;
+    padding: 10px;
+    margin: 5px;
 }
 
 .slider {
