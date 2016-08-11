@@ -26,7 +26,7 @@ $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
     
-  var indicator = $(".indicator")
+  var indicator = $("#indicator")
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
   
