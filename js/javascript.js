@@ -22,11 +22,12 @@ $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
 
-  var about = $("#About")
+  var about = $('#About')
   
-  console.log(about)
+  alert(about.attr('id'))
+  alert(about.length)
   
-  var aboutOffset = $( "#About" ).offset().top;
+  var aboutOffset = $( '#About' ).offset().top;
   var contactOffset = $( "#Contact" ).offset().top;
   var beerOffset = $( "#Beer" ).offset().top;
 
