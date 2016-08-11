@@ -29,7 +29,7 @@ $(window).scroll(function(){
 
   var about = $('#About');
   var contact = $("#Contact");
-  var beer = $("#Beer");
+  var beer = $("#Beers");
   var coff = contact.offset().top;
   var boff = beer.offset().top;
   var indicator = $("#indicator");
