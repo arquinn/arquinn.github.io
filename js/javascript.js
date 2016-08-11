@@ -18,6 +18,20 @@ $('li.answer').click(
   
 var stickyOffset = $('.navbar').offset().top;
 
+var bind = $("#bind"),
+    cind = $("#cind"),
+    aind = $("#aind");
+  
+var ctop = $("#Contact").offset().top,
+    btop = $("#Beers").offset().top;
+
+var acenter = aind.offset().left + (aind.width() / 2),
+    bcenter = bind.offset().left + (bind.width() / 2),
+    ccenter = cind.offset().left + (cind.width() / 2);
+
+
+
+
 $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
@@ -26,17 +40,13 @@ $(window).scroll(function(){
   else sticky.removeClass('fixed');
   
     
-  var ctop = $("#Contact").offset().top;
-  var btop = $("#Beers").offset().top;
   var indicator = $("#indicator");
+  inCenterAdj = (indicator.width() / 2);
   
-  bleft = $("#bind").offset().left;
-  cleft = $("#cind").offset().left;
-  aleft = $("#aind").offset().left;
   
-  if ((btop - scroll) < 0) indicator.css("left", bleft)
-  else if ((ctop - scroll) < 0) indicator.css("left",cleft)
-  else indicator.css("left",aleft)
+  if ((btop - scroll) < 0) indicator.css("left", bcenter - inCenterAdj)
+  else if ((ctop - scroll) < 0) indicator.css("left",ccenter - inCenterAdj)
+  else indicator.css("left",acenter - inCenterAdj)
     
       
   
