@@ -16,10 +16,10 @@ $('li.answer').click(
         $(this).filter(".answer").slideUp();
     });
   
-
-var aboutOffset = $("#About").offset().top;
-var contactOffset = $("#Contact").offset().top;
-var beerOffset = $("#Beer").offset().top;
+console.log( $("#About"))
+var aboutOffset = $( "#About" ).offset().top;
+var contactOffset = $( "#Contact" ).offset().top;
+var beerOffset = $( "#Beer" ).offset().top;
 var stickyOffset = $('.navbar').offset().top;
 
 $(window).scroll(function(){
