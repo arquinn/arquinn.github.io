@@ -33,7 +33,7 @@ $(window).scroll(function(){
   
   
   var aleft = contact.offset().left;
-  var coff = contact.offset().top;
+  var ctop = contact.offset().top;
   var cleft = contact.offset().left;
   var btop = beer.offset().top;
   var bleft = beer.offset().left;
