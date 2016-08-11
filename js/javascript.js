@@ -34,8 +34,6 @@ $(window).scroll(function(){
   cleft = $("#cind").offset().left;
   aleft = $("#aind").offset().left;
   
-  alert(bleft)
-  
   if ((btop - scroll) < 0) indicator.attr("left", bleft)
   else if ((ctop - scroll) < 0) indicator.attr("left",cleft)
   else indicator.attr("left",aleft)
