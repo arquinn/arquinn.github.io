@@ -25,19 +25,16 @@ $(window).scroll(function(){
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
   
-  
-
-  var about = $('#About');
-  var contact = $("#Contact");
-  var beer = $("#Beers");
-  
-  
-  var aleft = contact.offset().left;
-  var ctop = contact.offset().top;
-  var cleft = contact.offset().left;
-  var btop = beer.offset().top;
-  var bleft = beer.offset().left;
+    
+  var ctop = $("#Contact").offset().top;
+  var btop = $("#Beers").offset().top;
   var indicator = $("#indicator");
+  
+  bleft = $("#bind").offset().left;
+  cleft = $("#cind").offset().left;
+  aleft = $("#aind").offset().left;
+  
+  
   
   if ((btop - scroll) < 0) indicator.attr("left", bleft)
   else if ((ctop - scroll) < 0) indicator.attr("left",cleft)
@@ -45,4 +42,4 @@ $(window).scroll(function(){
     
       
   
-    });
+});
