@@ -22,6 +22,15 @@ var bind = $("#bind"),
     cind = $("#cind"),
     aind = $("#aind");
   
+
+$(window).scroll(function(){
+  var sticky = $('.navbar'),
+      scroll = $(window).scrollTop();
+
+  if (scroll >= stickyOffset) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+  
+    
 var ctop = $("#Contact").offset().top,
     btop = $("#Beers").offset().top;
 
@@ -31,14 +40,7 @@ var acenter = aind.offset().left + (aind.width() / 2),
 
 
 
-
-$(window).scroll(function(){
-  var sticky = $('.navbar'),
-      scroll = $(window).scrollTop();
-
-  if (scroll >= stickyOffset) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
-  
+    
     
   var indicator = $("#indicator");
   inCenterAdj = (indicator.width() / 2);
