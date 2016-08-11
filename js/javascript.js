@@ -17,15 +17,17 @@ $('li.answer').click(
     });
   
 console.log( $("#About"))
-var aboutOffset = $( "#About" ).offset().top;
-var contactOffset = $( "#Contact" ).offset().top;
-var beerOffset = $( "#Beer" ).offset().top;
+
 var stickyOffset = $('.navbar').offset().top;
 
 $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
     
+  var aboutOffset = $( "#About" ).offset().top;
+  var contactOffset = $( "#Contact" ).offset().top;
+  var beerOffset = $( "#Beer" ).offset().top;
+
   var indicator = $("#indicator")
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
