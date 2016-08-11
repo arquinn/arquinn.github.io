@@ -8,6 +8,14 @@ body {
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+input { 
+    width: 50%;   
+    border: 2px;
+    border-radius: 4px;
+    margin: auto;
+}
+
 .slider {
     width: 50px;
     position: absolute;
