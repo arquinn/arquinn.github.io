@@ -15,12 +15,26 @@ $('li.answer').click(
     function(){
         $(this).filter(".answer").slideUp();
     });
-    
+  
+
+var aboutOffset = $("#about").offset().top;
+var contactOffset = $("#contact").offset().top;
+var beerOffset = $("#beer").offset().top;
 var stickyOffset = $('.navbar').offset().top;
+
 $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
     
+  var indicator = $(".indicator")
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
+  
+  
+  if ((beerOffset - scroll) < 0) indicator[left] = 100
+  else if ((contactOffset - scroll) < 0) indicator[left] = 200
+  else indicator[left] = 300
+    
+      
+  
 });
