@@ -26,19 +26,16 @@ $(window).scroll(function(){
   var contact = $("#Contact")
   var beer = $("#Beer")
   
-  alert(about.offset())
+  var coff = contact.offset().top;
+  var boff = beer.offset().top
   
-  var aboutOffset = $( '#About' ).offset().top;
-  var contactOffset = $( "#Contact" ).offset().top;
-  var beerOffset = $( "#Beer" ).offset().top;
-
   var indicator = $("#indicator")
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
   
   
-  if ((beerOffset - scroll) < 0) indicator[left] = 100
-  else if ((contactOffset - scroll) < 0) indicator[left] = 200
+  if ((boff - scroll) < 0) indicator[left] = 100
+  else if ((coff - scroll) < 0) indicator[left] = 200
   else indicator[left] = 300
     
       
