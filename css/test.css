@@ -11,6 +11,7 @@ body {
 .slider {
     width: 50px;
     position: absolute;
+    top: 50px;
 }
 
 .page { 
