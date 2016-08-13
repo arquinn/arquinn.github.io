@@ -39,16 +39,14 @@ var acenter = aind.offset().left + (aind.width() / 2),
     ccenter = cind.offset().left + (cind.width() / 2);
 
 
-
-    
     
   var indicator = $("#indicator");
   inCenterAdj = (indicator.width() / 2);
   
   
-  if ((btop - scroll) < 0) indicator.css("left", bcenter - inCenterAdj)
-  else if ((ctop - scroll) < 0) indicator.css("left",ccenter - inCenterAdj)
-  else indicator.css("left",acenter - inCenterAdj)
+  if ((btop - scroll) < 0) indicator.animate{("left", bcenter - inCenterAdj)}
+  else if ((ctop - scroll) < 0) indicator.animate{("left",ccenter - inCenterAdj)}
+  else indicator.animate{("left",acenter - inCenterAdj)}
     
       
   
