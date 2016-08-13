@@ -44,9 +44,9 @@ var acenter = aind.offset().left + (aind.width() / 2),
   inCenterAdj = (indicator.width() / 2);
   
   
-  if ((btop - scroll) < 0) indicator.animate{("left",bcenter - inCenterAdj)}, 5000,function() {});
-  else if ((ctop - scroll) < 0) indicator.animate{("left",ccenter - inCenterAdj)}, 5000, function() {}); 
-  else indicator.animate{("left",acenter - inCenterAdj)}, 5000, function() {});
+  if ((btop - scroll) < 0) indicator.animate{("left":bcenter - inCenterAdj)}, 5000);
+  else if ((ctop - scroll) < 0) indicator.animate{("left":ccenter - inCenterAdj)}, 5000); 
+  else indicator.animate{("left":acenter - inCenterAdj)}, 5000);
   
       
   
