@@ -44,7 +44,10 @@ var acenter = aind.offset().left + (aind.width() / 2),
   inCenterAdj = (indicator.width() / 2);
   
   
-  if ((btop - scroll) < 0) indicator.animate({"left":bcenter - inCenterAdj}, 500);
+  if ((btop - scroll) < 0) {
+      indicator.animate({"left":bcenter - inCenterAdj}, 500);
+      alert("moving indicator to beers!")
+  }
   else if ((ctop - scroll) < 0) indicator.animate({"left":ccenter - inCenterAdj}, 500); 
   else indicator.animate({"left":acenter - inCenterAdj}, 500);
   
