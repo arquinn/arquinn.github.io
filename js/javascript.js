@@ -43,16 +43,22 @@ $(window).scroll(function(){
   var inPos = indicator.data('pos');
   var inCenterAdj = (indicator.width() / 2);
   
-  if ((btop - scroll) < 0  && inPos !== "bind"){
-      indicator.animate({"left":bcenter - inCenterAdj}, 500);
-      indicator.data('pos', 'bind');
+  if ((btop - scroll) < 0){
+      if (inPos !== "bind"){
+        indicator.animate({"left":bcenter - inCenterAdj}, 500);
+        indicator.data('pos', 'bind');
+      }
   }
-  else if ((ctop - scroll) < 0 && inPos !== "cind") {
-      indicator.animate({"left":ccenter - inCenterAdj}, 500); 
-      indicator.data('pos', 'cind');
+  else if ((ctop - scroll) < 0){
+      if (inPos !== "cind") { 
+        indicator.animate({"left":ccenter - inCenterAdj}, 500); 
+        indicator.data('pos', 'cind');
+      }
   }
-  else if ((atop - scroll) < 0 && inPos !== "aind"){
-      indicator.animate({"left":acenter - inCenterAdj}, 500);
-      indicator.data('pos', 'aind');
+  else if ((atop - scroll) < 0){
+      if (inPos !== "aind"){
+        indicator.animate({"left":acenter - inCenterAdj}, 500);
+        indicator.data('pos', 'aind');
+      }
   }
 });
