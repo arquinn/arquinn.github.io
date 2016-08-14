@@ -151,6 +151,7 @@ ul.faq {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    margin: 85px;
 }
 
 a {
@@ -160,6 +161,7 @@ a {
 h2 {
     font-size: 100px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-bottom: 85px;
 }
 p {
     font-size: 1.5em;
