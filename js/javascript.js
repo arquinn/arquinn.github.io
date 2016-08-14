@@ -22,7 +22,10 @@ var bind = $("#bind"),
     cind = $("#cind"),
     aind = $("#aind");
   
-
+var acenter = aind.offset().left + (aind.width() / 2),
+    bcenter = bind.offset().left + (bind.width() / 2),
+    ccenter = cind.offset().left + (cind.width() / 2);
+    
 $(window).scroll(function(){
   var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
@@ -31,25 +34,27 @@ $(window).scroll(function(){
   else sticky.removeClass('fixed');
   
     
-var ctop = $("#Contact").offset().top,
-    btop = $("#Beers").offset().top;
+  var ctop = $("#Contact").offset().top,
+      btop = $("#Beers").offset().top;
 
-var acenter = aind.offset().left + (aind.width() / 2),
-    bcenter = bind.offset().left + (bind.width() / 2),
-    ccenter = cind.offset().left + (cind.width() / 2);
-
-
-    
   var indicator = $("#indicator");
-  inCenterAdj = (indicator.width() / 2);
+  var inPos = indicator.data('pos');
+  var inCenterAdj = (indicator.width() / 2);
   
-  
-  if ((btop - scroll) < 0) {
+  if ((btop - scroll) < 0  && inPos !== "bind"){
       indicator.animate({"left":bcenter - inCenterAdj}, 500);
-      alert("moving indicator to beers!")
+      indicator.data('pos', 'bind');
   }
-  else if ((ctop - scroll) < 0) indicator.animate({"left":ccenter - inCenterAdj}, 500); 
-  else indicator.animate({"left":acenter - inCenterAdj}, 500);
+  else if ((ctop - scroll) < 0 && inPos !== "cind") {
+      indicator.animate({"left":ccenter - inCenterAdj}, 500); 
+      indicator.data('pos', 'cind');
+
+  }
+  else if (inPos !== "aind"){
+      indicator.animate({"left":acenter - inCenterAdj}, 500);
+      indicator.data('pos', 'aind');
+
+  }
   
       
   
