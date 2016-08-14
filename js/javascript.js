@@ -22,6 +22,14 @@ var bind = $("#bind"),
     cind = $("#cind"),
     aind = $("#aind");
   
+  
+var navHeight = $("#navBar").height()
+
+var ctop = $("#Contact").offset().top,
+    btop = $("#Beers").offset().top,
+    atop = $("#About").offset().top;
+      
+      
     
 $(window).scroll(function(){
   var sticky = $('.navbar'),
@@ -29,35 +37,29 @@ $(window).scroll(function(){
 
   if (scroll >= stickyOffset) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
-  
-    
-  var ctop = $("#Contact").offset().top,
-      btop = $("#Beers").offset().top,
-      atop = $("#About").offset().top;
       
-      
-var acenter = aind.offset().left + (aind.width() / 2),
-    bcenter = bind.offset().left + (bind.width() / 2),
-    ccenter = cind.offset().left + (cind.width() / 2);
+  var acenter = aind.offset().left + (aind.width() / 2),
+      bcenter = bind.offset().left + (bind.width() / 2),
+      ccenter = cind.offset().left + (cind.width() / 2);
 
 
   var indicator = $("#indicator");
   var inPos = indicator.data('pos');
   var inCenterAdj = (indicator.width() / 2);
   
-  if ((btop - scroll) < 0){
+  if ((btop - (scroll + navHeight)) < 0){
       if (inPos !== "bind"){
         indicator.animate({"left":bcenter - inCenterAdj}, 500);
         indicator.data('pos', 'bind');
       }
   }
-  else if ((ctop - scroll) < 0){
+  else if ((ctop - (scroll + navHeight)) < 0){
       if (inPos !== "cind") { 
         indicator.animate({"left":ccenter - inCenterAdj}, 500); 
         indicator.data('pos', 'cind');
       }
   }
-  else if ((atop - scroll) < 0){
+  else if ((atop - (scroll + navHeight)) < 0){
       if (inPos !== "aind"){
         indicator.animate({"left":acenter - inCenterAdj}, 500);
         indicator.data('pos', 'aind');
