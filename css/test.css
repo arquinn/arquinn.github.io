@@ -23,7 +23,8 @@ input {
 .slider {
     width: 50px;
     position: absolute;
-    top: 50px;
+    top: 55px;
+    left: 861.7px;
 }
 
 .page { 
