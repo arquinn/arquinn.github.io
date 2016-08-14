@@ -35,7 +35,9 @@ $(window).scroll(function(){
   
     
   var ctop = $("#Contact").offset().top,
-      btop = $("#Beers").offset().top;
+      btop = $("#Beers").offset().top,
+      atop = $("#About").offset().top;
+
 
   var indicator = $("#indicator");
   var inPos = indicator.data('pos');
@@ -48,14 +50,9 @@ $(window).scroll(function(){
   else if ((ctop - scroll) < 0 && inPos !== "cind") {
       indicator.animate({"left":ccenter - inCenterAdj}, 500); 
       indicator.data('pos', 'cind');
-
   }
-  else if (inPos !== "aind"){
+  else if ((atop - scroll) < 0 && inPos !== "aind"){
       indicator.animate({"left":acenter - inCenterAdj}, 500);
       indicator.data('pos', 'aind');
-
   }
-  
-      
-  
 });
