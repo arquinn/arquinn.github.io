@@ -29,7 +29,7 @@ var navHeight = $("#navBar").height(),
     atop = $("#About").offset().top;
       
       
-function handleNavBar(event) {
+function handleNavBar() {
      var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
 
@@ -65,5 +65,5 @@ function handleNavBar(event) {
   }
 };
     
-$(window).scroll(handleNavBar());
-$( document ).ready(handleNavBar());
+$(window).scroll(function() {handleNavBar()});
+$( document ).ready(function() {handleNavBar()});
