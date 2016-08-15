@@ -30,9 +30,8 @@ var ctop = $("#Contact").offset().top,
     atop = $("#About").offset().top;
       
       
-    
-$(window).scroll(function(){
-  var sticky = $('.navbar'),
+function handleNavBar() { 
+     var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
 
   if (scroll >= stickyOffset) sticky.addClass('fixed');
@@ -65,4 +64,13 @@ $(window).scroll(function(){
         indicator.data('pos', 'aind');
       }
   }
-});
+} 
+    
+    
+}
+    
+$(window).scroll(handleNavBar());
+
+
+
+$( document ).ready(handleNavBar() )
