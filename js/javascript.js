@@ -23,14 +23,13 @@ var bind = $("#bind"),
     aind = $("#aind");
   
   
-var navHeight = $("#navBar").height()
-
-var ctop = $("#Contact").offset().top,
+var navHeight = $("#navBar").height(),
+    ctop = $("#Contact").offset().top,
     btop = $("#Beers").offset().top,
     atop = $("#About").offset().top;
       
       
-function handleNavBar() { 
+function handleNavBar() {
      var sticky = $('.navbar'),
       scroll = $(window).scrollTop();
 
@@ -64,13 +63,7 @@ function handleNavBar() {
         indicator.data('pos', 'aind');
       }
   }
-} 
-    
-    
-}
+};
     
 $(window).scroll(handleNavBar());
-
-
-
-$( document ).ready(handleNavBar() )
+$( document ).ready(handleNavBar());
