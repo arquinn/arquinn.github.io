@@ -8,10 +8,6 @@ body {
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-form { 
-    text-align: center;
-}
-
 input { 
     border: 2px;
     border-radius: 4px;
