@@ -57,7 +57,7 @@ function handleNavBar() {
         indicator.data('pos', 'cind');
       }
   }
-  else if ((atop - (scroll + navHeight)) < 0){
+  else {
       if (inPos !== "aind"){
         indicator.animate({"left":acenter - inCenterAdj}, 500);
         indicator.data('pos', 'aind');
