@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<title>Andrew Quinn</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			{% include nav.html %}
-			<div class="container">
-			
+			<nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+			</nav>
+		<section id="about">
+			<div class="blurb">
+				<h1>Hi there, I'm Andrew Quinn!</h1> 
+				<p>I'm a Ph.d student working with <a href="http://web.eecs.umich.edu/~jflinn/">Jason Flinn</a> at the University of Michigan. I am working on building a system that allows us to efficiently track how information flows through programs. More generally I am interested in researching operating and distributed systems. <a href="/about">Read more about my life...</a></p>
+			</div><!-- /.blurb -->
+		</section>
 
-<div class="blurb">
-	<h1>Hi there, I'm Andrew Quinn!</h1> 
-	<p>I'm a Ph.d student working with <a href="http://web.eecs.umich.edu/~jflinn/">Jason Flinn</a> at the University of Michigan. I am working on building a system that allows us to efficiently track how information flows through programs. More generally I am interested in researching operating and distributed systems. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
 
-			</div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:arquinn@umich.edu">email</a></li>
