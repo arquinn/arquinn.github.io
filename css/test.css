@@ -143,7 +143,7 @@ ul.faq {
     background-size: auto 100%;
     background-repeat: no-repeat
 }
-/*
+
 .beermobile:before { 
  content: '';
  position: fixed;
@@ -153,12 +153,12 @@ ul.faq {
  left: 0;
  zindex : -1;
  background-size: auto 100%;
- background-image: url("../FINAL_LOGO_GREY.jpg");
+// background-image: url("../FINAL_LOGO_GREY.jpg");
 }
-*/
 
 .beermobile { 
- background-image: #999;
+    clip: rect(0,auto,auto,0);
+    // background-image: #999;
 }
 
 .answer {
