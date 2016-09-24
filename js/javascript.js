@@ -9,6 +9,8 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     $('#brect').addClass("brectmobile")
     $('#brect').removeClass("brect")
     $('.beer').removeClass("beerdesktop")
+    $('.beer').addClass("beermobile")
+
     
     var multiple = new Multiple({
         selector: ".beer",
