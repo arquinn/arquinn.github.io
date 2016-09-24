@@ -25,17 +25,18 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 $('li.question').click(
     function(){
             if($(this).next().css('display') == 'none') {
-                $('li').filter(".answer").slideUp();
-                $(this).nextUntil('.question').slideDown(); 
+                //$('li').filter(".answer").slideUp();
+                //$(this).nextUntil('.question').slideDown(); 
+                $(this).next().slideDown();
             }
             else {
-             $('li').filter(".answer").slideUp();
+             $('li').next().slideUp();
             }
     });
 
 $('li.answer').click(
     function(){
-        $(this).filter(".answer").slideUp();
+        $(this).slideUp();
     });
   
 var stickyOffset = $('.navbar').offset().top;
