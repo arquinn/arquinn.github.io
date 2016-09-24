@@ -1,12 +1,16 @@
 body {
+    margin:0px auto;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#blankrect { 
     background-image: url("../FINAL_LOGO_SCALED.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    margin:0px auto;
-    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 input { 
     border: 2px;
