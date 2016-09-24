@@ -123,13 +123,23 @@ ul.faq {
     z-index: 1;
     text-align: center;
 }
-.question {
+.questiondesktop {
     font-weight: bold;
     color: black;
     font-size: 2em;
     line-height: 1.4em;
     padding-top: 1em;
     padding-bottom: 1em;
+    padding-left: 0em;
+}
+
+.questionmobile {
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    line-height: 1.4em;
+    padding-top: 0em;
+    padding-bottom: 0em;
     padding-left: 0em;
 }
 
