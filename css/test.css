@@ -140,6 +140,7 @@ ul.faq {
     background-attachment: fixed;
     background-image: url("../FINAL_LOGO_GREY.jpg");
     background-position: center;
+    background-size: auto 100%;
     background-repeat: no-repeat
 }
 /*.beer:before { 
