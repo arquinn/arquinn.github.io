@@ -22,6 +22,10 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 //$('li').filter(".answer").hide();
 
+$('ul').on("click","div",function() { 
+      console.log($(this).text())
+}); 
+
 $('ul').on("click","li.question", function(){
             console.log($(this).text())
             if($(this).next().css('display') == 'none') {
