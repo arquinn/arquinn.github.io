@@ -136,12 +136,12 @@ ul.faq {
 .beerq{
         border-top:20px solid #971418;
 }
-/*.beer { 
+.beerdesktop { 
     background-attachment: fixed;
-    
+    background-image: url("../FINAL_LOGO_GREY.jpg");
     background-position: center;
     background-repeat: no-repeat
-}*/
+}
 /*.beer:before { 
  content: '';
  position: fixed;
@@ -151,7 +151,6 @@ ul.faq {
  left: 0;
  zindex : -1;
  background-size: auto 100%;
- background-image: url("../FINAL_LOGO_GREY.jpg");
 }*/
 
 .answer {
