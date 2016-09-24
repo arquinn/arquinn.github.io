@@ -28,15 +28,18 @@ $('li.question').click(
                 //$('li').filter(".answer").slideUp();
                 //$(this).nextUntil('.question').slideDown(); 
                 $(this).next().slideDown();
+                console.log("li.question slideDown?")
             }
             else {
              $(this).next().slideUp();
+             console.log("li.question slideUp?")
             }
     });
 
 $('li.answer').click(
     function(){
         $(this).slideUp();
+        console.log("li.answer slideUp?")
     });
   
 var stickyOffset = $('.navbar').offset().top;
