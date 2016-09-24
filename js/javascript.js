@@ -29,12 +29,12 @@ $('li.question').click(
                 //$(this).nextUntil('.question').slideDown(); 
                 $(this).next().slideDown();
                 console.log("li.question slideDown?")
-                console.log($(this).innerHTML)
+                console.log($(this).text())
             }
             else {
              $(this).next().slideUp();
              console.log("li.question slideUp?")
-             console.log($(this).innerHTML)
+             console.log($(this).text())
             }
     });
 
@@ -42,7 +42,7 @@ $('li.answer').click(
     function(){
         $(this).slideUp();
         console.log("li.answer slideUp?")
-        console.log($(this).innerHTML)
+        console.log($(this).text())
     });
   
 var stickyOffset = $('.navbar').offset().top;
