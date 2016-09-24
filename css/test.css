@@ -3,7 +3,7 @@ body {
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#brect { 
+brect { 
     background-image: url("../FINAL_LOGO_SCALED.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -11,6 +11,14 @@ body {
     background-size: auto 100%;
 }
 
+brectmobile {
+    background-image: url("../FINAL_LOGO_SCALED.jpg");
+    background-position: top left;
+    background-attachment: scroll;
+    background-size: auto 100%;
+}
+    
+}
 
 input { 
     border: 2px;
