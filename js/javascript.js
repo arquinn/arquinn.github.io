@@ -52,7 +52,7 @@ function handleNavBar() {
       
       
   if (isMobile) { 
-    $("#brect").css('background-position', 'left ' + ((scroll)) + 'px');   
+    $("#brect").css('background-position', 'center ' + ((scroll)) + 'px');   
   }
       
   var acenter = aind.offset().left + (aind.width() / 2),
