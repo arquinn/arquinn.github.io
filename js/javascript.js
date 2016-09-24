@@ -22,27 +22,24 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 //$('li').filter(".answer").hide();
 
-$('li.question').click(
-    function(){
+$('ul').on("click","li.question", function(){
+            console.log($(this).text())
             if($(this).next().css('display') == 'none') {
                 //$('li').filter(".answer").slideUp();
                 //$(this).nextUntil('.question').slideDown(); 
                 $(this).next().slideDown();
                 console.log("li.question slideDown?")
-                console.log($(this).text())
             }
             else {
              $(this).next().slideUp();
              console.log("li.question slideUp?")
-             console.log($(this).text())
             }
     });
 
 $('li.answer').click(
     function(){
-        $(this).slideUp();
-        console.log("li.answer slideUp?")
         console.log($(this).text())
+        $(this).slideUp();
     });
   
 var stickyOffset = $('.navbar').offset().top;
