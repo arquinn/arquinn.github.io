@@ -9,6 +9,10 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     $('#brect').removeClass("brect")
 }
 
+var multiple = new Multiple({
+    selector: ".beer",
+    background: 'url("../FINAL_LOGO_GREY.jpg")',
+});
 
 $('li').filter(".answer").hide();
 
