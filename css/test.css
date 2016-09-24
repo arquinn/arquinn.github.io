@@ -143,6 +143,10 @@ ul.faq {
     background-repeat: no-repeat
 }*/
 
+.berr {
+    position:absolute;
+    clip: rect(0,auto,auto,0);
+}
 .beer:before { 
  content: '';
  position: fixed;
