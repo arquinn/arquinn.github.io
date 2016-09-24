@@ -3,7 +3,7 @@ body {
     font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#blankrect { 
+#brect { 
     background-image: url("../FINAL_LOGO_SCALED.jpg");
     background-position: center;
     background-attachment: fixed;
