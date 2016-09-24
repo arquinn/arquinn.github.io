@@ -6,6 +6,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 {
     isMobile = true;
     $('#brect').addClass("brectmobile")
+    $('#brect').removeClass("brect")
 }
 
 
