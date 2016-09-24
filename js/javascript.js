@@ -13,7 +13,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 var multiple = new Multiple({
    selector: ".beer",
-    background: url("../FINAL_LOG_SCALED.jpg"),
+    background: 'url("../FINAL_LOG_SCALED.jpg")',
 });
 
 
