@@ -20,7 +20,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 
 
-//$('li').filter(".answer").hide();
+$('li').filter(".answer").hide();
 
 $('li.question').click(
     function(){
@@ -30,7 +30,7 @@ $('li.question').click(
                 $(this).next().slideDown();
             }
             else {
-             $('li').next().slideUp();
+             $(this).next().slideUp();
             }
     });
 
