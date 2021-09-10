@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-09-09 12:00:00-0000
 inline: true
 ---
 
-A simple inline announcement.
+I just defended my dissertation, Data-Centric Execution Inspection! A huge group of family and friends showed up, thanks for being there! :smile:
