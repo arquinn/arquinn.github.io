@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: Assistant Professor at University of California, Santa Cruz. 
 
