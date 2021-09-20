@@ -1,15 +1,30 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
-category: work
+title: CSE 231 -- Fall 2021
+description: Advanced Operating Systems
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Course Information
+
+CSE 231 will intorduce students to research in operating systems.  To
+this end, we will perform a detailed study on the issues in operating
+systems design and implementation, with special focus on providing
+historical context for the research topics explored by the community
+today.  After this course, you will be able to read, understand,
+contextualize, and apply the concepts from cutting-edge operating
+systems research to your own projects. 
+
+
+## Instructor Information
+
+My name is Andrew Quinn; in this course you can address me as
+`Andrew'. The best way to contact me is through email
+(aquinn1@ucsc.edu). You can also stop by my office, #365 Engineering 2
+
+
+Every project has a beautiful feature showcase page.  It's easy to
+include images in a flexible 3-column grid format.  Make your photos
+1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
