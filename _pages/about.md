@@ -34,7 +34,6 @@ reliability of persistent memory applications (Hippocrates and
 Agamotto) and to provide better trade-offs for record and replay (ER).
 
 If you're interesting in building more reliable software systems,
-let's talk!  I'm always interested in taking on new students and
-building new collaborations.
+let's talk!
 
 
