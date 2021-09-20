@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+
+    <title>Andrew Quinn</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+ <body>
+
+   <header>
+     <h1>Andrew Quinn</h1>
+     <p class="affiliation">University of Michigan &mdash;
+       <a href="mailto:arquinn@umich.edu">arquinn@umich.edu</a></p>
+     <p>I use <strong>data-intensive</strong> techniques to
+	 improve <strong>software reliability</strong>.</p>
+
+     <p>
+       <strong>I'm going to UC Santa Cruz!</strong><br>
+       If you're interested in building more reliable software systems, let's talk!<br>
+       
+       <!--&mdash; My materials are still in the oven. &mdash; -->
+       <a href=apps/CV.pdf>CV</a> &mdash;
+       <a href=apps/Research_Statement.pdf>Research</a> &mdash;
+       <a href=apps/Teaching_Statement.pdf>Teaching</a> &mdash;
+       <a href=apps/Diversity_Statement.pdf>Diversity</a>
+     </p>
+   </header>
+   <content>
+
+     <section id="About">
+       <div class="about">
+	 <!--<h2>About</h2> -->
+	 <div class="left">
+	   <img src="AQGreen.jpg" width=100%>
+	   <!--<img src="AQBlue.jpg" width=100%>-->
+	   <h4>Awards</h4>
+	   <p class="award"><a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship-program/">Microsoft
+	       Fellowship ('17)</a></br>
+	     <a href="https://www.nsfgrfp.org/">NSF
+	       Fellowship ('17)</a></br>
+	     <a href="https://denison.edu/academics/computer-science/honors-awards">John L. Gilpatrick Award ('14)</a></br>
+	     <a href="https://denison.edu/academics/mathematics/wh/24528">Ted Barclay Student-Athlete ('14)</a></p>
+
+	 </div>
+	 <div class="right">
+	   <p> I'm a sixth year Ph.d candidate working
+	     with <a href="https://web.eecs.umich.edu/~barisk/">Baris
+	     Kasikci at the University of Michigan.  I worked
+	     with <a href="https://jflinn.engin.umich.edu/">Jason
+	     Flinn</a> for many years.  I'm supported by
+	     a <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship-program/">
+	     Microsoft Research Fellowship</a> and
+	     a <a href="https://www.nsfgrfp.org/">National Science
+	     Foundation Fellowship</a>.
+	   </p>
+	   <p> I'm broadly interested in improving software
+	     reliability.  Specifically, I'm investigating <strong>
+	     data-intensive software reliability</strong>: how can we
+	     apply data-intensive techniques to prevent, detect, and
+	     resolve software errors?  My thesis proposes a
+	     fundamentally more powerful model for observing program
+	     executions to perform tasks such as security forensics,
+	     debugging and data provenance.  This work treats a
+	     program execution as a massive data object consisting of
+	     all the program states (i.e., memory and register values)
+	     reached by the execution and uses cluster-scale
+	     parallelization and declarative languages to accelerate
+	     and simplify observations over these objects.  In the
+	     future, I'm interested in using similar techniques to
+	     provide run-time safety properties with minimal developer
+	     effort.</p>
+
+	   <p>I am currently mentoring a number of students in
+	     <a href="https://web.eecs.umich.edu/~barisk/">Baris
+	       Kasikci's</a> lab.  We're working on a number of
+	       projects in the software reliability space, including
+	       improving the reliability of persistent memory
+	       applications, understanding how heterogeneous
+	       deployments impact the reliability of our systems, and
+	       building better tools for failure reproduction.</p>
+
+	   <p>I'm an avid reader, political junkie, and casual sports
+	   fan.  If I'm not working, then I'm probably wrestling with
+	   my dogs, Huckleberry and Harley; cooking an elaborate meal
+	   with my wife, Tully; baking something sweet
+	   from <a href="https://bravetart.com">Bravetart</a>; or
+	   enjoing a long run around Ann Arbor.</p>
+	 </div>
+       </div>
+     </section>
+
+     <section id="Pubilcations">
+       <h2>Publications</h2>
+       <table>
+	 <tbody>
+	   <td>
+	     <p>Reproducing Production Failures with Execution
+	       Reconstruction. <br> Gefei Zuo, Jiacheng
+	       Ma, <strong>Andrew Quinn</strong>, Pramod Bhatotia,
+	       Pedro Fonseca, and Baris Kasikci
+	       <cite>To appear In Proceedings of the Fourty-Second ACM
+		 SIGPLAN Conference on Programming Language Design and
+		 Implementation</cite> (PLDI), June 2021.
+	     </p>    
+
+	     <p>HIPPOCRATES: Healing Persistent Memory Bugs Without
+	       Doing Any Harm. <br> Ian Neal, <strong>Andrew
+	       Quinn</strong>, and Baris Kasikci
+	       <cite>To appear In Proceedings of the Twenty-Sixth
+		 International Conference on Architectural Support for
+		 Programming Languages and Operating Systems</cite>
+		 (ASPLOS), April
+		 2021. [<a href=papers/neal21.pdf>PDF</a>]
+	     </p>    
+	   </td>
+	   <tr />
+	   <td>
+	     <p>AGAMOTTO: How Persistent is your Persistent Memory
+	       application? <br> Ian Neal, Ben Reeves, Ben
+	       Stoler, <strong>Andrew Quinn</strong>, Youngjin Kwon,
+	       Simon Peter and Baris Kasikci
+	       <cite>In Proceedings of the 2020 USENIX Symposium on
+		 Operating Systems Design and Implementation </cite>
+		 (OSDI), November
+		 2020. [<a href=papers/neal20.pdf>PDF</a>]
+		 [<a href="https://www.youtube.com/watch?v=Cl2cRtTGh_s">Presentation</a>]
+	     </p>    
+	   </td>
+	   <tr />
+	   <td>
+	     <p>The Case for Determinism on the Edge
+	       <br> Matt Furlong, <strong>Andrew Quinn</strong>, and
+	       Jason Flinn <cite>2nd USENIX Workshop on Hot Topics in
+		 Edge Computing</cite> (HotEdge), July
+	       2019. [<a href=papers/furlong19.pdf>PDF</a>][<a href=slides/furlong19-slides.pdf>Slides</a>]
+	     </p>    
+	   </td>
+	   <tr />
+	   <td>
+	     <p>You can't debug what you can't see: Expanding observability with the OmniTable
+	       <br> <strong>Andrew Quinn</strong>, Jason Flinn, and Mike
+	       Cafarella <cite>Proceedings of the Workshop on Hot Topics
+		 in Operating Systems </cite> (HotOS), May
+	       2019. [<a href=papers/quinn19.pdf>PDF</a>][<a href=slides/quinn19.pptx>Slides</a>]
+	     </p>    
+	   </td>
+	   <tr />
+
+	   <td>
+	     <p>Sledgehammer: Cluster-Fueled Debugging
+	       <br> <strong>Andrew Quinn</strong>, Jason Flinn, and Mike
+	       Cafarella <cite>Proceedings of the 2018 USENIX Symposium
+		 on Operating Systems Design and Implementation </cite>
+	       (OSDI), October
+	       2018. [<a href=papers/quinn18.pdf>PDF</a>][<a href=slides/quinn18.pptx>Slides</a>]
+	     </p>    
+	   </td>
+	   <tr />
+	   <td>
+	     <p>JetStream: Cluster-scale Parallelization of Information
+	       Flow Queries<br> <strong>Andrew Quinn</strong>, David
+	       Devecsery, Peter M Chen and Jason Flinn <cite> Proceedings
+		 of the 2016 USENIX Symposium on Operating Systems Design and
+		 Implementation </cite> (OSDI), November
+	       2016. [<a href=papers/quinn16.pdf>PDF</a>][<a href=slides/quinn16.pptx>Slides</a>]
+	     </p>    
+	   </td>
+	   <tr />
+	 </tbody>
+       </table>
+     </section>
+
+     <section id="Service">
+       <h2>Service</h2>
+       <p>ASPLOS External Review Committee Member (2021)</br>
+	 EuroSys Shadow Program Committee Member (2020)</br>
+	 SOSP Artifact Evaluation Committee Member (2019)</br>
+	 University of Michigan CSE Ph.D. Admissions Committee Member (2018)</br>
+	 Discover Engineering Volunteer (2019)</br>
+	 Techie Club Volunteer (2015)</br>
+	 A Call to College Volunteer (2013)</p>
+       
+     </section>
+   </content>
+  </body>
+</html>
