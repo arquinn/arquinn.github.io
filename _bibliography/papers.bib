@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @inproceedings {quinn16,
 author = {Andrew Quinn and David Devecsery and Peter M. Chen and Jason Flinn},
 title = {JetStream: Cluster-Scale Parallelization of Information Flow Queries},
@@ -37,28 +36,45 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3317550.3321428},
 doi = {10.1145/3317550.3321428},
-abstract = {The effectiveness of a debugging tool is fundamentally limited by what program state
-it can observe. Yet, for performance reasons, all current debugging tools restrict
-the program state that can be observed in some way. For example, tools like heap analysis
-restrict what can be observed (i.e., only global variables) and tools like core dump
-analysis restrict when observations may be made (i.e., only on program termination).
-Other tools effectively limit the scope of observation by requiring developers to
-specify what and when observations will be made before execution (e.g., logging) or
-during an execution (e.g., gdb).We propose a new abstraction for debugging, called
-an OmniTable, that logically exposes unrestricted access to all program state at all
-points in an execution to developers. The OmniTable represents a program execution
-as a database-style table. Developers inspect the OmniTable using a familiar declarative
-query language: SQL. SQL simplifies the observation and analysis of large, complex
-execution state. Iterative queries are inherently consistent since they operate over
-the same logical table.Clearly, materializing the OmniTable for even a simple program
-is infeasible due to storage and processing overheads. Thus, our prototype, SteamDrill,
-selectively materializes only the regions of the OmniTable required to answer each
-query by using deterministic record and replay to reproduce the execution and dynamic
-instrumentation to extract needed state. By expressing debugging queries with relational
-logic, SteamDrill leverages proven optimizations such as query optimization and caching.
-In addition, decomposition into relational logic allows a query to be executed via
-repeated replays, each replay extracting information needed by the next, which can
-often be more efficient than extracting all information during a single execution.},
+abstract = {The effectiveness of a debugging tool is fundamentally
+                  limited by what program state it can observe. Yet,
+                  for performance reasons, all current debugging tools
+                  restrict the program state that can be observed in
+                  some way. For example, tools like heap analysis
+                  restrict what can be observed (i.e., only global
+                  variables) and tools like core dump analysis
+                  restrict when observations may be made (i.e., only
+                  on program termination).  Other tools effectively
+                  limit the scope of observation by requiring
+                  developers to specify what and when observations
+                  will be made before execution (e.g., logging) or
+                  during an execution (e.g., gdb).We propose a new
+                  abstraction for debugging, called an OmniTable, that
+                  logically exposes unrestricted access to all program
+                  state at all points in an execution to
+                  developers. The OmniTable represents a program
+                  execution as a database-style table. Developers
+                  inspect the OmniTable using a familiar declarative
+                  query language: SQL. SQL simplifies the observation
+                  and analysis of large, complex execution
+                  state. Iterative queries are inherently consistent
+                  since they operate over the same logical
+                  table.Clearly, materializing the OmniTable for even
+                  a simple program is infeasible due to storage and
+                  processing overheads. Thus, our prototype,
+                  SteamDrill, selectively materializes only the
+                  regions of the OmniTable required to answer each
+                  query by using deterministic record and replay to
+                  reproduce the execution and dynamic instrumentation
+                  to extract needed state. By expressing debugging
+                  queries with relational logic, SteamDrill leverages
+                  proven optimizations such as query optimization and
+                  caching.  In addition, decomposition into relational
+                  logic allows a query to be executed via repeated
+                  replays, each replay extracting information needed
+                  by the next, which can often be more efficient than
+                  extracting all information during a single
+                  execution.},
 booktitle = {Proceedings of the Workshop on Hot Topics in Operating Systems},
 pages = {163–169},
 numpages = {7},
@@ -88,25 +104,40 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3445814.3446694},
 doi = {10.1145/3445814.3446694},
-abstract = {Persistent memory (PM) technologies aim to revolutionize storage systems, providing
-persistent storage at near-DRAM speeds. Alas, programming PM systems is error-prone,
-as the misuse or omission of the durability mechanisms (i.e., cache flushes and memory
-fences) can lead to durability bugs (i.e., unflushed updates in CPU caches that violate
-crash consistency). PM-specific testing and debugging tools can help developers find
-these bugs, however even with such tools, fixing durability bugs can be challenging.
-To determine the reason behind this difficulty, we first study durability bugs and
-find that although the solution to a durability bug seems simple, the actual reasoning
-behind the fix can be complicated and time-consuming. Overall, the severity of these
-bugs coupled with the difficultly of developing fixes for them motivates us to consider
-automated approaches to fixing durability bugs.  We introduce Hippocrates, a system
-that automatically fixes durability bugs in PM systems. Hippocrates automatically
-performs the complex reasoning behind durability bug fixes, relieving developers of
-time-consuming bug fixes. Hippocrates’s fixes are guaranteed to be safe, as they are
-guaranteed to not introduce new bugs (“do no harm”). We use Hippocrates to automatically
-fix 23 durability bugs in realworld and research systems. We show that Hippocrates
-produces fixes that are functionally equivalent to developer fixes. We then show that
-solely using Hippocrates’s fixes, we can create a PM port of Redis which has performance
-rivaling and exceeding the performance of a manually-developed PM-port of Redis.},
+abstract = {Persistent memory (PM) technologies aim to revolutionize
+                  storage systems, providing persistent storage at
+                  near-DRAM speeds. Alas, programming PM systems is
+                  error-prone, as the misuse or omission of the
+                  durability mechanisms (i.e., cache flushes and
+                  memory fences) can lead to durability bugs (i.e.,
+                  unflushed updates in CPU caches that violate crash
+                  consistency). PM-specific testing and debugging
+                  tools can help developers find these bugs, however
+                  even with such tools, fixing durability bugs can be
+                  challenging.  To determine the reason behind this
+                  difficulty, we first study durability bugs and find
+                  that although the solution to a durability bug seems
+                  simple, the actual reasoning behind the fix can be
+                  complicated and time-consuming. Overall, the
+                  severity of these bugs coupled with the difficultly
+                  of developing fixes for them motivates us to
+                  consider automated approaches to fixing durability
+                  bugs.  We introduce Hippocrates, a system that
+                  automatically fixes durability bugs in PM
+                  systems. Hippocrates automatically performs the
+                  complex reasoning behind durability bug fixes,
+                  relieving developers of time-consuming bug
+                  fixes. Hippocrates’s fixes are guaranteed to be
+                  safe, as they are guaranteed to not introduce new
+                  bugs (“do no harm”). We use Hippocrates to
+                  automatically fix 23 durability bugs in realworld
+                  and research systems. We show that Hippocrates
+                  produces fixes that are functionally equivalent to
+                  developer fixes. We then show that solely using
+                  Hippocrates’s fixes, we can create a PM port of
+                  Redis which has performance rivaling and exceeding
+                  the performance of a manually-developed PM-port of
+                  Redis.},
 booktitle = {Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
 pages = {401–414},
 numpages = {14},
@@ -124,24 +155,37 @@ isbn = {9781450383912},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3453483.3454101},
-abstract = {Reproducing production failures is crucial for software reliability. Alas, existing
-bug reproduction approaches are not suitable for production systems because they are
-not simultaneously efficient, effective, and accurate. In this work, we survey prior
-techniques and show that existing approaches over-prioritize a subset of these properties,
-and sacrifice the remaining ones. As a result, existing tools do not enable the plethora
-of proposed failure reproduction use-cases (e.g., debugging, security forensics, fuzzing)
-for production failures.  We propose Execution Reconstruction (ER), a technique that
-strikes a better balance between efficiency, effectiveness and accuracy for reproducing
-production failures. ER uses hardware-assisted control and data tracing to shepherd
-symbolic execution and reproduce failures. ER’s key novelty lies in identifying data
-values that are both inexpensive to monitor and useful for eliding the scalability
-limitations of symbolic execution. ER harnesses failure reoccurrences by iteratively
-performing tracing and symbolic execution, which reduces runtime overhead. Whereas
-prior production-grade techniques can only reproduce short executions, ER can reproduce
-any reoccuring failure. Thus, unlike existing tools, ER reproduces fully replayable
-executions that can power a variety of debugging and reliabilty use cases. ER incurs
-on average 0.3% (up to 1.1%) runtime monitoring overhead for a broad range of real-world
-systems, making it practical for real-world deployment.},
+abstract = {Reproducing production failures is crucial for software
+                  reliability. Alas, existing bug reproduction
+                  approaches are not suitable for production systems
+                  because they are not simultaneously efficient,
+                  effective, and accurate. In this work, we survey
+                  prior techniques and show that existing approaches
+                  over-prioritize a subset of these properties, and
+                  sacrifice the remaining ones. As a result, existing
+                  tools do not enable the plethora of proposed failure
+                  reproduction use-cases (e.g., debugging, security
+                  forensics, fuzzing) for production failures.  We
+                  propose Execution Reconstruction (ER), a technique
+                  that strikes a better balance between efficiency,
+                  effectiveness and accuracy for reproducing
+                  production failures. ER uses hardware-assisted
+                  control and data tracing to shepherd symbolic
+                  execution and reproduce failures. ER’s key novelty
+                  lies in identifying data values that are both
+                  inexpensive to monitor and useful for eliding the
+                  scalability limitations of symbolic execution. ER
+                  harnesses failure reoccurrences by iteratively
+                  performing tracing and symbolic execution, which
+                  reduces runtime overhead. Whereas prior
+                  production-grade techniques can only reproduce short
+                  executions, ER can reproduce any reoccuring
+                  failure. Thus, unlike existing tools, ER reproduces
+                  fully replayable executions that can power a variety
+                  of debugging and reliabilty use cases. ER incurs on
+                  average 0.3\% (up to 1.1\%) runtime monitoring
+                  overhead for a broad range of real-world systems,
+                  making it practical for real-world deployment.},
 booktitle = {Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation},
 pages = {1155–1170},
 numpages = {16}
