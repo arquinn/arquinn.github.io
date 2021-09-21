@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: class
 title: CSE 231, Fall 2021
 description: Advanced Operating Systems
+category: syllabus
 ---
 
 ## Course Information
@@ -70,20 +71,21 @@ help students think critically and contribute to the operating systems
 research community.  More specifically, this course has the following
 objectives:
 
-- At the end of this course, students will be able to 
-- At the end of this course, students will be able to 
-- At the end of this course, students will be able to 
+- At the end of this course, students will be able to critically read
+  and review papers from the operating systems community. 
+- At the end of this course, students will be able to articulate and
+  teach others about the core concept and contributions of a research
+  project in operating systems.
+- At the end of this course, students will be able to pursue and
+  conduct systems research projects.
 
-The skills practiced in this course are critical for success in
-software development and research across related sub-fields of computer
-science.
 
 ## Prerequisites
 
-Success in this course will require prior engagement with operating
-systems concepts including processes, file systems, and virtual
-memory.  Students will be most successful if they have taken CSE 130 or
-an equivalent course at another university.
+While not required, prior engagement with operating systems concepts,
+including processes, file systems, and virtual memory will be useful
+for this course.  If you are concerned about gaps in your background
+knowledge, please come see me and we can have a discussion.
 
 ## Required Materials, Textbooks, and Technology
 
