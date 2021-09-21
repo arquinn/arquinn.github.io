@@ -7,7 +7,8 @@ nav: true
 ---
 <div class="projects">
     <div class="grid">
-        {% for project in site.teaching  %}
+    	{% assign syllabuses = site.teaching | where: "category", "syllabus" %}
+        {% for project in syllabuses %}
      	    {% include projects.html %}
 	{% endfor %}
     </div>
