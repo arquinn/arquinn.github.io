@@ -363,6 +363,33 @@ footer.sticky-bottom {
   }
 }
 
+.sections {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+          color: var(--global-theme-color);
+	  text-decoration: underline;
+      }
+    }
+  }
+
+  .grid-item {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
 
 // Publications
 
