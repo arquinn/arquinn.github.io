@@ -18,7 +18,7 @@ operating systems research to your own projects.
 
 ## COVID-19 Information
 
-#### What we can expect from each other:
+###### What we can expect from each other:
 
 Each individual at UC Santa Cruz should act in the best interests of
 everyone else in our community. Please take care to comply with all
@@ -40,7 +40,7 @@ so that you can continue to make progress in the course.  that you can
 keep making progress
 
 
-#### What you can expect from me:
+###### What you can expect from me:
 
 I have designed our course following campus guidance and with current
 public health guidelines in mind. However, these guidelines may change
@@ -305,7 +305,7 @@ this [form](https://ucsc-advocate.symplicity.com/care_report/index.php/pid894170
 
 ## Student Services
 
-#### [Counseling and Psychological Services](https://caps.ucsc.edu)
+###### [Counseling and Psychological Services](https://caps.ucsc.edu)
 
 Many students at UCSC face personal challenges or have psychological
 needs that may interfere with their academic progress, social
@@ -318,13 +318,13 @@ philosophy respectful of clients’ cultural and religious backgrounds,
 and sensitive to differences in race, ability, gender identity and
 sexual orientation.
 
-#### [Student Success and Engagement Hub](https://studentsuccess.ucsc.edu/)
+###### [Student Success and Engagement Hub](https://studentsuccess.ucsc.edu/)
 
 The Division of Student Success provides campus-wide coordination and
 leadership for student success programs and activities across
 departments, divisions, the colleges, and administrative units.
 
-#### [Slug Support Program](https://deanofstudents.ucsc.edu/slug-support/program/index.html)
+###### [Slug Support Program](https://deanofstudents.ucsc.edu/slug-support/program/index.html)
 
 College can be a challenging time for students and during times of
 stress it is not always easy to find the help you need.  Slug Support
@@ -334,13 +334,13 @@ instruction.  To get started with SLUG Support, please contact the
 Dean of Students Office at 831-459-4446 or you may send us an email at
 deanofstudents@ucsc.edu.
 
-#### [Slug Help/Technology](https://its.ucsc.edu/index.html)
+###### [Slug Help/Technology](https://its.ucsc.edu/index.html)
 
 The ITS Support Center is your single point of contact for all issues,
 problems or questions related to technology services and computing at
 UC Santa Cruz. To get technological help, simply email help@ucsc.edu.
 
-#### [On-Campus Emergency Contacts](https://www.ucsc.edu/help/)
+###### [On-Campus Emergency Contacts](https://www.ucsc.edu/help/)
 
 Slug Help/Emergency Services. For all other help and support,
 including the health center and emergency services, start here. Always
