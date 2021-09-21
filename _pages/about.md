@@ -1,8 +1,8 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
-description: Assistant Professor at University of California, Santa Cruz. 
+description: Assistant Professor at the University of California, Santa Cruz. 
 
 profile:
   align: right
