@@ -3,9 +3,15 @@ layout: default
 ---
 
 <div class="grid">
-{% assign syllabus = site.teaching | where: "title", page.title | where: "category", "syllabus" %}
-{% assign schedule = site.teaching | where: "title", page.title | where: "category", "schedule" %}
-<div class="grid-item">
+{% assign syllabus = site.teaching | where: "title", page.title %}
+{% assign schedule = site.teaching | where: "title", page.title %}
+
+{% for item in syllabus %}
+<p> {{ item.title }} </p>
+<p> {{ item.url }} </p>
+{% endfor %}
+
+<!-- <div class="grid-item">
   <a href="{{ syllabus.url | relative_url }}">
     <div class="card hoverable">
       <div class="card-body">
@@ -24,7 +30,7 @@ layout: default
   </a>
 </div>
 </div>
-
+-->
 
 <div class="post">
   <header class="post-header">
