@@ -17,21 +17,22 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a junior professor at UC Santa Cruz who explores techniques and
-builds systems for improving software reliability.  In the long run,
-my goal is to simplify the developer effort required to build
-efficient software systems.  During my Ph.D., I explored a new
-framework for inspecting the runtime behavior of a software system.  I
-proposed a data-oriented model that treats software executions like
-data objects and allows us to apply data-oriented techniques, such as
-massive-scale parallelization and relational query models, to
-debugging, security forensics, data provenance, and configuration
-management.  The systems presented in my thesis offer order of
-magnitude improvements over current state-of-the-art techniques.
+I am a professor at UC Santa Cruz who explores techniques and builds
+systems that improve software reliability.  In the long run, my goal
+is to simplify the developer effort required to build correct and
+efficient software systems.  During my Ph.D., I created Data-Centric
+Execution Inspection, a data-oriented approach to analyzing the
+runtime behavior of a software system.  The model treats software
+executions like data objects and thus enables to application of
+data-oriented techniques, such as massive-scale parallelization and
+relational query models, to debugging, security forensics, data
+provenance, and configuration management.  The systems presented in my
+thesis offer order of magnitude improvements over current
+state-of-the-art techniques.
 
-Recently, I've also looked at systems support to improve the
-reliability of persistent memory applications (Hippocrates and
-Agamotto) and to provide better trade-offs for record and replay (ER).
+I've recently investigated systems support to improve the reliability
+of persistent memory applications (Hippocrates and Agamotto) and to
+provide better trade-offs for record and replay (ER).
 
 If you're interesting in building more reliable software systems,
 let's talk!
