@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="classes">
 <div class="grid">
 {% assign syllabus = site.teaching | where: "title", page.title | where: "category", "syllabus" | first%}
 {% assign schedule = site.teaching | where: "title", page.title | where: "category", "schedule" | first%}
@@ -37,4 +37,5 @@ layout: default
     {{ content }}
   </article>
 
+</div>
 </div>
