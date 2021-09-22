@@ -27,11 +27,11 @@ category: schedule
 |11/03 | Virtualization           | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | | |
 |11/05 | Project Check-in         |                                    | | |
 |11/08 | Virtualization           | [Balooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | | | | 
-|11/10 | Virtualization           | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)                             | | | | 
-|11/12 | Virtualization           | [Resource Containers](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/banga.html)                | | | | 
-|11/15 | Reliability              | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | | | |
-|11/17 | Reliability              | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | | | |
-|11/19 | Reliability              | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | | | |
+|11/10 | Virtualization           | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)                       | | | 
+|11/12 | Virtualization           | [Resource Containers](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/banga.html)                | | | 
+|11/15 | Reliability              | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | | |
+|11/17 | Reliability              | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | | |
+|11/19 | Reliability              | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | | |
 |11/22 | Reliability              | [Failure Oblivous Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing)         | | |
 |11/24 | Misc                     | [The Scalable Commutativity Rule](https://dl.acm.org/doi/10.1145/2517349.2522712)    | | |
 |11/26 |(No Class, Thanksgiving)|                                    | | |
