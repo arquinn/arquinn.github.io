@@ -5,7 +5,7 @@ description: Advanced Operating Systems
 category: schedule
 ---
 
-|    Date   | Topic | Required | Optional | Slides |
+|    Date   | Topic | Required | Optional | Slides|
 |-----------|-------|----------------|------------------|--------|
 | 9/24 | Course Overview             |                        | | |
 | 9/27 | Wisdom,                     |                                                                 | worse is better<br />Hints<br />Updated Hints<br />How to Read | |
