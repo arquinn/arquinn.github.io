@@ -380,12 +380,16 @@ footer.sticky-bottom {
       width: 100%;
     }
     .card-title {
-      color: $black-color;
+	color: $black-color;
+	margin-bottom : 0px;
+    }
+    .card-body {
+	padding : 0px 0px 0px 0px;
     }
   }
 
   .grid-item {
-    width: 400px;
+    width: 200px;
     margin-bottom: 0px;
   }
 }
