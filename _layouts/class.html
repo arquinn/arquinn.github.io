@@ -5,10 +5,8 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
-
-
+    <div class="post-description">
+      <p>{{ page.description }}</p>
 <div class="grid">
 {% assign syllabus = site.teaching | where: "title", page.title | where: "category", "syllabus" | first%}
 {% assign schedule = site.teaching | where: "title", page.title | where: "category", "schedule" | first%}
@@ -32,6 +30,11 @@ layout: default
   </a>
 </div>
 </div>
+
+
+      </div>
+  </header>
+
 
   <article>
     {{ content }}

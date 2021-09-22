@@ -392,6 +392,16 @@ footer.sticky-bottom {
     width: 200px;
     margin-bottom: 0px;
   }
+
+  table {
+      width: 100%;
+      border: 1px solid;
+  }
+
+  th, tr {
+      border: 1px solid;
+  }
+  
 }
 
 
