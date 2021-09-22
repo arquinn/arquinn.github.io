@@ -13,9 +13,7 @@ community today.  After this course, you will be able to read,
 understand, contextualize, and apply concepts from operating systems
 research.
 
-### COVID-19 Information
-
-##### What we can expect from each other:
+## COVID-19 Information
 
 Each individual at UC Santa Cruz should act in the best interests of
 everyone else in our community. Please take care to comply with all
@@ -36,9 +34,6 @@ requires you to miss class sessions; I will provide you with options
 so that you can continue to make progress in the course.  that you can
 keep making progress
 
-
-##### What you can expect from me:
-
 I have designed our course following campus guidance and with current
 public health guidelines in mind. However, these guidelines may change
 in accordance with shifting infection rates or the emergence of new
@@ -53,7 +48,7 @@ need to transition smoothly to the new format. If you have questions
 about the changes, please reach out to me so I can answer them.
 
 
-### Instructor Information
+## Instructor Information
 
 My name is Andrew Quinn; in this course you can address me as
 `Andrew'. The best way to contact me is through email
@@ -77,20 +72,20 @@ objectives:
   conduct systems research projects.
 
 
-### Prerequisites
+## Prerequisites
 
 While not required, prior engagement with operating systems concepts,
 including processes, file systems, and virtual memory will be useful
 for this course.  If you are concerned about gaps in your background
 knowledge, please come see me and we can have a discussion.
 
-### Required Materials, Textbooks, and Technology
+## Required Materials, Textbooks, and Technology
 
 Students will need access to a personal computer for success in this
 course.  Please contact me if you have hardship in securing a
 computer; UCSC has programs that can help you.
 
-### Assignments and Assessment
+## Assignments and Assessment
 
 The learning outcomes will be assessed through the following:
 - (40%) Course Project : You will work with a team to perform a
@@ -128,7 +123,7 @@ these tasks in the stated amount of time, it is likely that you are
 doing more than is necessary.
 
 
-### Student Feedback
+## Student Feedback
 
 In the first third of this course, I will solicit feedback to help
 make sure that you are learning effectively.  At the end of the
@@ -139,7 +134,7 @@ constructive. This anonymous feedback will help me consider
 modifications to the course that will help future students learn more
 effectively.
 
-### Academic Integrity
+## Academic Integrity
 
 All members of the UCSC community benefit from an environment of
 trust, honesty, fairness, respect, and responsibility. You are
@@ -167,7 +162,7 @@ academic dishonesty, students and instructors should refer to the
 [Academic Integrity for Graduate
 Students](https://www.ucsc.edu/academics/academic-integrity/).
 
-### Accessibility
+## Accessibility
 
 UC Santa Cruz is committed to creating an academic environment that
 supports its diverse student body. If you are a student with a
@@ -181,7 +176,7 @@ about DRC services to contact the DRC by phone at 831-459-2089 or by
 email at drc@ucsc.edu.
 
 
-### Intellectual Property
+## Intellectual Property
 
 The materials in this course are the intellectual property of their
 creators. As a student, you have access to many of the materials in
@@ -199,7 +194,7 @@ intellectual property and you may use them as you wish.  I will ask
 permission to post slides that you prepare for your presentation on
 this verbiage to better serve the learning of your fellow students.
 
-### Religious Accommodation
+## Religious Accommodation
 
 UC Santa Cruz welcomes diversity of religious beliefs and practices,
 recognizing the contributions differing experiences and viewpoints can
@@ -214,8 +209,7 @@ also seek assistance from the Dean of Students office
 (https://deanofstudents.ucsc.edu).
 
 
-### Principles of Community
-
+## Principles of Community
                                                                                                    
 The University of California, Santa Cruz expressly prohibits students
 from engaging in conduct constituting unlawful discrimination,
@@ -238,7 +232,7 @@ effective way to ensure respectful discussion and to create a space
 where we are all learning together.
 
 
-### Title IX and CARE
+## Title IX and CARE
 
 
 UC Santa Cruz is committed to providing a safe learning environment
@@ -286,7 +280,7 @@ In addition to CARE, these resources are available to you:
 - For emergencies, call 911.
                                                                                                    
 
-### Report an Incident of Hate or Bias
+## Report an Incident of Hate or Bias
 
 The University of California, Santa Cruz is committed to maintaining
 an objective, civil, diverse and supportive community, free of
@@ -298,7 +292,7 @@ or a faculty member. To report an incident of hate or bias, please use
 this [form](https://ucsc-advocate.symplicity.com/care_report/index.php/pid894170?)
 
 
-### Student Services
+## Student Services
 
 ##### [Counseling and Psychological Services](https://caps.ucsc.edu)
 
