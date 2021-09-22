@@ -4,6 +4,37 @@
 @inproceedings {quinn16,
 author = {Andrew Quinn and David Devecsery and Peter M. Chen and Jason Flinn},
 title = {JetStream: Cluster-Scale Parallelization of Information Flow Queries},
+abstract={Dynamic information flow tracking (DIFT) is an important
+                  tool in many domains, such as security, debugging,
+                  forensics, provenance, configuration
+                  troubleshooting, and privacy tracking. However, the
+                  usability of DIFT is currently limited by its high
+                  overhead; complex information flow queries can take
+                  up to two orders of magnitude longer to execute than
+                  the original execution of the program. This
+                  precludes interactive uses in which users
+                  iteratively refine queries to narrow down bugs,
+                  leaks of private data, or performance anomalies.
+                  JetStream applies cluster computing to parallelize
+                  and accelerate information flow queries over past
+                  executions. It uses deterministic record and replay
+                  to time slice executions into distinct contiguous
+                  chunks of execution called epochs, and it tracks
+                  information flow for each epoch on a separate core
+                  in the cluster. It structures the aggregation of
+                  information flow data from each epoch as a streaming
+                  computation. Epochs are arranged in a sequential
+                  chain from the beginning to the end of program
+                  execution; relationships to program inputs (sources)
+                  are streamed forward along the chain, and
+                  relationships to program outputs (sinks) are
+                  streamed backward. Jet- Stream is the first system
+                  to parallelize DIFT across a cluster. Our results
+                  show that JetStream queries scale to at least 128
+                  cores over a wide range of applications. JetStream
+                  accelerates DIFT queries to run 12–48 times faster
+                  than sequential queries; in most cases, queries run
+                  faster than the original execution of the program.},
 booktitle = {12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16)},
 year = {2016},
 isbn = {978-1-931971-33-1},
@@ -12,11 +43,50 @@ pages = {451--466},
 url = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/quinn},
 publisher = {{USENIX} Association},
 month = nov,
+pdf={pdf/quinn16.pdf}
 }
 
 @inproceedings {quinn18,
 author = {Andrew Quinn and Jason Flinn and Michael Cafarella},
 title = {Sledgehammer: Cluster-Fueled Debugging},
+abstract= { Current debugging tools force developers to choose between
+                  power and interactivity. Interactive debuggers such
+                  as gdb let them quickly inspect application state
+                  and monitor execution, which is perfect for simple
+                  bugs. However, they are not powerful enough for
+                  complex bugs such as wild stores and synchronization
+                  errors where developers do not know which values to
+                  inspect or when to monitor the execution. So,
+                  developers add logging, insert timing measurements,
+                  and create functions that verify invariants. Then,
+                  they re-run applications with this
+                  instrumentation. These powerful tools are,
+                  unfortunately, not interactive; they can take
+                  minutes or hours to answer one question about a
+                  complex execution, and debugging involves asking and
+                  answering many such questions.  In this paper, we
+                  propose cluster-fueled debugging, which provides
+                  interactivity for powerful debugging tools by
+                  parallelizing their work across many cores in a
+                  cluster. At sufficient scale, developers can get
+                  answers to even detailed queries in a few
+                  seconds. Sledgehammer is a cluster-fueled debugger:
+                  it improves performance by timeslicing program
+                  execution, debug instrumentation, and analysis of
+                  results, and then executing each chunk of work on a
+                  separate core. Sledgehammer enables powerful,
+                  interactive debugging tools that are infeasible
+                  today. Parallel retro-logging allows developers to
+                  change their logging instrumentation and then
+                  quickly see what the new logging would have produced
+                  on a previous execution. Continuous function
+                  evaluation logically evaluates a function such as a
+                  data-structure integrity check at every point in a
+                  program’s execution. Retro-timing allows fast
+                  performance analysis of a previous execution. With
+                  1024 cores, Sledgehammer executes these tools
+                  hundreds of times faster than single-core execution
+                  while returning identical results.  },
 booktitle = {13th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 18)},
 year = {2018},
 isbn = {978-1-939133-08-3},
@@ -25,6 +95,7 @@ pages = {545--560},
 url = {https://www.usenix.org/conference/osdi18/presentation/quinn},
 publisher = {{USENIX} Association},
 month = oct,
+pdf={pdf/quinn18.pdf}
 }
 
 @inproceedings{quinn19,
@@ -80,12 +151,44 @@ pages = {163–169},
 numpages = {7},
 location = {Bertinoro, Italy},
 series = {HotOS '19}
+pdf={pdf/quinn19.pdf}
 }
 
 
 @inproceedings {neal20,
 author = {Ian Neal and Ben Reeves and Ben Stoler and Andrew Quinn and Youngjin Kwon and Simon Peter and Baris Kasikci},
 title = {{AGAMOTTO}: How Persistent is your Persistent Memory Application?},
+abstract = {Persistent Memory (PM) can be used by applications to
+                  directly and quickly persist any data structure,
+                  without the overhead of a file system. However,
+                  writing PM applications that are simultaneously
+                  correct and efficient is challenging. As a result,
+                  PM applications contain correctness and performance
+                  bugs. Prior work on testing PM systems has low bug
+                  coverage as it relies primarily on extensive test
+                  cases and developer annotations.  In this paper we
+                  aim to build a system for more thoroughly testing PM
+                  applications. We inform our design using a detailed
+                  study of 63 bugs from popular PM projects. We
+                  identify two application-independent patterns of PM
+                  misuse which account for the majority of bugs in our
+                  study and can be detected automatically. The
+                  remaining application-specific bugs can be detected
+                  using compact custom oracles provided by developers.
+                  We then present AGAMOTTO, a generic and extensible
+                  system for discovering misuse of persistent memory
+                  in PM applications. Unlike existing tools that rely
+                  on extensive test cases or annotations, AGAMOTTO
+                  symbolically executes PM systems to discover
+                  bugs. AGAMOTTO introduces a new symbolic memory
+                  model that is able to represent whether or not PM
+                  state has been made persistent. AGAMOTTO uses a
+                  state space exploration algorithm, which drives
+                  symbolic execution towards program locations that
+                  are susceptible to persistency bugs. AGAMOTTO has so
+                  far identified 84 new bugs in 5 different PM
+                  applications and frameworks while incurring no false
+                  positives.},
 booktitle = {14th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 20)},
 year = {2020},
 isbn = {978-1-939133-19-9},
@@ -93,6 +196,7 @@ pages = {1047--1064},
 url = {https://www.usenix.org/conference/osdi20/presentation/neal},
 publisher = {{USENIX} Association},
 month = nov,
+pdf={pdf/neal20.pdf}
 }
 
 @inproceedings{neal21,
@@ -143,7 +247,8 @@ pages = {401–414},
 numpages = {14},
 keywords = {persistent memory, program repair},
 location = {Virtual, USA},
-series = {ASPLOS 2021}
+series = {ASPLOS 2021},
+pdf={pdf/neal21.pdf}
 }
 
 
