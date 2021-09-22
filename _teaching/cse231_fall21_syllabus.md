@@ -5,8 +5,6 @@ description: Advanced Operating Systems
 category: syllabus
 ---
 
-# Course Information
-
 CSE 231 will introduce students to research in operating systems (OS).
 To this end, we will perform a detailed study on the issues in
 operating systems design and implementation, with special focus on
