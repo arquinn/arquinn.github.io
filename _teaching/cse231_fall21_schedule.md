@@ -7,8 +7,15 @@ category: schedule
 
 |    Date   | Topic | Required | Optional | Slides |
 |-----------|-------|----------|----------|--------|
-| 9/24 | Course Overview          |                        |[The Faces of System Research](https://www.usenix.org/legacy/event/hotos05/final_papers_backup/red_team/red_html/paper.html#foot32) | |
-| 9/27 | Wisdom                   |                                                            | [worse is better](https://www.dreamsongs.com/WorseIsBetter.html)<br />[Hints](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-17.pdf)<br />[How to Read a paper](https://www.albany.edu/spatial/WebsiteFiles/ResearchAdvices/how-to-read-a-paper.pdf) | |
+| 9/24 | Course Overview          |                        |[The Faces of System Research](https://www.usenix.org/legacy/event/hotos05/final_papers_backup/red_team/red_html/paper.html#foot32)<br />
+                                                            [How to Read a paper](https://www.albany.edu/spatial/WebsiteFiles/ResearchAdvices/how-to-read-a-paper.pdf)<br />
+							    [Mothy's tips for reviews](https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf)<br />
+							    [How to give a bad talk](https://people.eecs.berkeley.edu/~pattrsn/talks/BadTalk.pdf)<br />
+    							    [Ernst's presentation tips](https://homes.cs.washington.edu/~mernst/advice/giving-talk.html)<br />
+							    [Jones's presentation tips](https://www.youtube.com/watch?v=sT_-owjKIbA)<br />| |
+| 9/27 | Wisdom                   |                        |[worse is better](https://www.dreamsongs.com/WorseIsBetter.html)<br />
+                                                            [Hints](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-17.pdf)<br />
+							    [The Night Watch](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)<br/>| |
 | 9/29 | OS History and Unix      | [Unix](https://dl.acm.org/doi/10.1145/957195.808045) *no review*                     | [Writing Systems Conference Reviews](https://people.inf.ethz.ch/troscoe/pubs/review-writing.pdf) | |
 |10/01 | OS History and Opal      | [Opal](https://dl.acm.org/doi/10.1145/195792.195795)                                 | | |
 |10/04 | Kernel                   | [The Exokernel](https://dl.acm.org/doi/10.1145/224056.224076)                        | | |
