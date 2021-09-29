@@ -13,7 +13,7 @@ category: schedule
 |10/01 | OS History and Opal  | [Opal](https://dl.acm.org/doi/10.1145/195792.195795)                                 | | | |
 |10/04 | Kernel               | [The Exokernel](https://dl.acm.org/doi/10.1145/224056.224076)                        | | | |
 |10/06 | Kernel               | [Lightweight Remote Procedure Calls](https://dl.acm.org/doi/10.1145/77648.77650)     | | | |
-|10/08 | Kernel               | [The MultiKernel](https://dl.acm.org/doi/10.1145/1629575.1629579)                    | | | |
+|10/08 | Kernel               | [The MultiKernel](https://dl.acm.org/doi/10.1145/1629575.1629579)                    | | | Project Proposal |
 |10/11 | Kernel               | [IX](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/belay) | | | |
 |10/14 | File Systems         | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990)                | | | |
 |10/15 | File Systems         | [A log-structured File System](https://dl.acm.org/doi/10.1145/121132.121137)         | | | |
@@ -28,12 +28,13 @@ category: schedule
 |11/05 | Project Check-in     |                                    | | | |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | | | |
 |11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | | | |
-|11/12 | Virtualization       | [Resource Containers](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/banga.html) | | | |
-|11/15 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | | | |
-|11/17 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | | | |
-|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | | | |
-|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | | | |
-|11/24 | Misc                 | [The Scalable Commutativity Rule](https://dl.acm.org/doi/10.1145/2517349.2522712)    | | | |
+
+|11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | | | |
+|11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | | | |
+|11/17 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | | | |
+|11/19 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | | | |
+|11/22 | Security             | [EROS](https://dl.acm.org/doi/10.1145/319344.319163)    | | | |
+|11/24 | Security             | [HiStar](https://www.usenix.org/legacy/events/osdi06/tech/zeldovich.html)    | | | |
 |11/26 | (Thanksgiving)       |                           | | | |
 |11/29 | What Did We Learn?   |                           | | | |
 |12/01 | Presentations        |                           | | | |

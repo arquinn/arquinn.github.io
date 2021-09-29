@@ -97,7 +97,7 @@ The learning outcomes will be assessed through the following:
   we read in this course.  These reviews will help practice critical
   examination of OS papers.  You are able to skip a total of two
   reviews across the quarter (choose wisely!).  Reviews will be submitted
-  through hotCRP at https://ucsc-cse231-21.hotcrp.com/.  We will
+  through [hotCRP](https://ucsc-cse231-21.hotcrp.com/).  We will
   discuss the guidelines for writing reviews during the first week of
   the course.
 - (15%) Paper Presentations: Each student will be responsible for
