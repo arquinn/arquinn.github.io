@@ -28,7 +28,6 @@ category: schedule
 |11/05 | Project Check-in     |                                    | | | |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | | | |
 |11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | | | |
-
 |11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | | | |
 |11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | | | |
 |11/17 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | | | |
