@@ -25,7 +25,7 @@ category: schedule
 |10/29 | Distributed FSs      | [Speculator](https://dl.acm.org/doi/10.1145/1095809.1095829)                        | |Sloan | |
 |11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh | |
 |11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |Nayan | |
-|11/05 | Project Check-in     |                                    | |All | |
+|11/05 | Project Check-in     |                                    | |All | Project Check-in |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |Surya | |
 |11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene | |
 |11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |Fabien | |
@@ -36,7 +36,7 @@ category: schedule
 |11/24 | Security             | [HiStar](https://www.usenix.org/legacy/events/osdi06/tech/zeldovich.html)    | |Andrew | |
 |11/26 | (Thanksgiving)       |                           | | | |
 |11/29 | What Did We Learn?   |                           | |Andrew | |
-|12/01 | Presentations        |                           | | | |
+|12/01 | Presentations        |                           | | | Project Final Paper |
 |12/03 | Presentations        |                           | | | Quiz #2 |
 
 
