@@ -18,7 +18,7 @@ category: schedule
 |10/14 | File Systems         | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990)                | |[Andrew](https://docs.google.com/presentation/d/1pGDOhG8mkdbwF090VtHjrhslJq3Ftn053xyY80jHzpo/edit?usp=sharing)<br />[Eugene](/assets/pdf/CSE231_FFS.pdf) | |
 |10/15 | File Systems         | [A log-structured File System](https://dl.acm.org/doi/10.1145/121132.121137)         | |[Andrew](https://docs.google.com/presentation/d/11IR_LiUbPKB3w2s42wc5W1EGdTN8gBh5fs_plqmUMxU/edit?usp=sharing)<br />[Surya](/assets/pdf/CSE231_LFS.pdf) | |
 |10/18 | Scheduling           | [Lottery Scheduling](https://www.usenix.org/conference/osdi-94/lottery-scheduling-flexible-proportional-share-resource-management) | |[Andrew](https://docs.google.com/presentation/d/1wVEiOjZiYsH_caeQo7EBH2l_HkUrF79tyOz4iYZ9eQM/edit?usp=sharing) <br />[Brevan](/assets/pdf/CSE231_Lottery.pdf) | |
-|10/20 | Scheduling           | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)           | |Amogh | |
+|10/20 | Scheduling           | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)           | |Amogh <br />[Andrew](https://docs.google.com/presentation/d/12BuL4GIS9a5L9OSbwz2PVdyagtn8MwSRTtHnjwfVGP4/edit?usp=sharing) | |
 |10/22 | Distributed FSs      | [CODA](https://dl.acm.org/doi/10.1145/121133.121166)                                 | |Andrew | [Quiz #1](https://docs.google.com/document/d/1bpSQht3dqjVEl4xB7mKTFt5TisSXaGy-WeUaNxMsAMw/edit?usp=sharing) |
 |10/25 | Distributed FSs      | [xfs](https://dl.acm.org/doi/10.1145/225535.225537)             | |Fabien | |
 |10/27 | (No Class, SOSP)     | | | | |
