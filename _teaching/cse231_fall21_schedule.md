@@ -18,12 +18,12 @@ category: schedule
 |10/14 | File Systems         | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990)                | |[Andrew](https://docs.google.com/presentation/d/1pGDOhG8mkdbwF090VtHjrhslJq3Ftn053xyY80jHzpo/edit?usp=sharing)<br />[Eugene](/assets/pdf/CSE231_FFS.pdf) | |
 |10/15 | File Systems         | [A log-structured File System](https://dl.acm.org/doi/10.1145/121132.121137)         | |[Andrew](https://docs.google.com/presentation/d/11IR_LiUbPKB3w2s42wc5W1EGdTN8gBh5fs_plqmUMxU/edit?usp=sharing)<br />[Surya](/assets/pdf/CSE231_LFS.pdf) | |
 |10/18 | Scheduling           | [Lottery Scheduling](https://www.usenix.org/conference/osdi-94/lottery-scheduling-flexible-proportional-share-resource-management) | |[Andrew](https://docs.google.com/presentation/d/1wVEiOjZiYsH_caeQo7EBH2l_HkUrF79tyOz4iYZ9eQM/edit?usp=sharing) <br />[Brevan](/assets/pdf/CSE231_Lottery.pdf) | |
-|10/20 | Scheduling           | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)           | |Amogh <br />[Andrew](https://docs.google.com/presentation/d/12BuL4GIS9a5L9OSbwz2PVdyagtn8MwSRTtHnjwfVGP4/edit?usp=sharing) | |
-|10/22 | Distributed FSs      | [CODA](https://dl.acm.org/doi/10.1145/121133.121166)                                 | |Andrew | [Quiz #1](https://docs.google.com/document/d/1bpSQht3dqjVEl4xB7mKTFt5TisSXaGy-WeUaNxMsAMw/edit?usp=sharing) |
-|10/25 | Distributed FSs      | [xfs](https://dl.acm.org/doi/10.1145/225535.225537)             | |Fabien | |
+|10/20 | Scheduling           | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)                | |[Amogh](/assets/pdf/CSE231_SchedulerActivations.pdf)<br />[Andrew](https://docs.google.com/presentation/d/12BuL4GIS9a5L9OSbwz2PVdyagtn8MwSRTtHnjwfVGP4/edit?usp=sharing) | |
+|10/22 | Distributed FSs      | [CODA](https://dl.acm.org/doi/10.1145/121133.121166)                                 | |[Andrew](https://docs.google.com/presentation/d/1JJxC7-hoAuiSwW7wGeMN9LEd4_gN9LSBP-2fwltxFT4/edit?usp=sharing) | [Quiz #1](https://docs.google.com/document/d/1bpSQht3dqjVEl4xB7mKTFt5TisSXaGy-WeUaNxMsAMw/edit?usp=sharing) |
+|10/25 | Distributed FSs      | [xfs](https://dl.acm.org/doi/10.1145/225535.225537)                                  | |[Fabien](/assets/pdf/CSE231_XFS.pdf)<br />[Andrew](https://docs.google.com/presentation/d/16FZi0eQ4M7KWjcx9Z1DwHDbO2pmojE1kg19sxcU-_Zg/edit?usp=sharing)| |
 |10/27 | (No Class, SOSP)     | | | | |
-|10/29 | Distributed FSs      | [Speculator](https://dl.acm.org/doi/10.1145/1095809.1095829)                        | |Sloan | |
-|11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh | |
+|10/29 | Distributed FSs      | [Speculator](https://dl.acm.org/doi/10.1145/1095809.1095829)                        | |[Sloan](/assets/pdf/CSE231_Speculator.pdf)<br />[Andrew](https://docs.google.com/presentation/d/1VD9YFD3pWKgqjqV1-Kju8U1Ewtnr5oM7381Iuhiu7UM/edit?usp=sharing) | |
+|11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh<br />[Andrew](/assets/pdf/CSE231_15.pdf) | |
 |11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |Nayan | |
 |11/05 | Project Check-in     |                                    | |All | Project Check-in |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |Surya | |
