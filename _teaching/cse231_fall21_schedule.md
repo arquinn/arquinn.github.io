@@ -23,11 +23,11 @@ category: schedule
 |10/25 | Distributed FSs      | [xfs](https://dl.acm.org/doi/10.1145/225535.225537)                                  | |[Fabien](/assets/pdf/CSE231_XFS.pdf)<br />[Andrew](https://docs.google.com/presentation/d/16FZi0eQ4M7KWjcx9Z1DwHDbO2pmojE1kg19sxcU-_Zg/edit?usp=sharing)| |
 |10/27 | (No Class, SOSP)     | | | | |
 |10/29 | Distributed FSs      | [Speculator](https://dl.acm.org/doi/10.1145/1095809.1095829)                        | |[Sloan](/assets/pdf/CSE231_Speculator.pdf)<br />[Andrew](https://docs.google.com/presentation/d/1VD9YFD3pWKgqjqV1-Kju8U1Ewtnr5oM7381Iuhiu7UM/edit?usp=sharing) | |
-|11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh<br />[Andrew](/assets/pdf/CSE231_15.pdf) | |
-|11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |Nayan | |
-|11/05 | Project Check-in     |                                    | |All | Project Check-in |
+|11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh<br />[Andrew](/assets/pdf/CSE231_16.pdf) | |
+|11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |Nayan<br />[Andrew](/assets/pdf/CSE231_17.pdf) | |
+|11/05 | Project Check-in     |                                    | |All | Project Check-in (Presentation) |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |Surya | |
-|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene | |
+|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene | Project Check-in (Paper) |
 |11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |Fabien | |
 |11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |Lakshmi | |
 |11/17 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan | |
