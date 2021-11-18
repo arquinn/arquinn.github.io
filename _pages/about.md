@@ -48,10 +48,11 @@ on reliability techniques in this space (coming soon!).  Finally, I'm
 working with a group at UCSC to improve the reliability of GPUs
 (coming soon!).
 
-Lastly, we are investigating reliability and performance in
-disaggregated data-centers.  We're investigating the performance
-implications of using these system and proposing solutions to mitigate
-bottlenecks.  We're also identifying the tradeoffs between performance
-and reliability in these systems and finding ways to exploit them.
+Lastly, we are investigating the reliability and performance of
+applications in disaggregated computing.  We're studying the
+performance implications of using these system and proposing solutions
+to mitigate bottlenecks.  We're also identifying the tradeoffs between
+performance and reliability in these systems and finding ways to
+exploit them.
 
 If any of this interests you, let's talk!
