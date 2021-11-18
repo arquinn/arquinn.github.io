@@ -20,8 +20,8 @@ social: true  # includes social icons at the bottom of the page
 My goal is to make it easier for developers to build correct and
 efficient software systems.  I have a developer-focused approach to
 research: I focus on the fixing the problems facing developers when
-building large-scale applications.  I am primarily a (``systems
-guy'')[https://www.usenix.org/system/files/1311_05-08_mickens.pdf],
+building large-scale applications.  I am primarily a [``systems
+guy''](https://www.usenix.org/system/files/1311_05-08_mickens.pdf),
 but my work often intersects with architecture, programming languages,
 and software engineering.
 
