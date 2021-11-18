@@ -197,7 +197,9 @@ blockquote {
 }
 
 .news table th {
-  color: var(--global-text-color);
+    color: var(--global-text-color);
+    width: 10%;
+    vertical-align: middle;
 }
 
 // Social (bottom)
