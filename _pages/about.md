@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Assistant Professor at the University of California, Santa Cruz. <br /> I'm looking for students! [Click here](https://grad.soe.ucsc.edu/cse) for information about CSE at UC Santa Cruz, and [click here](https://applygrad.ucsc.edu/apply/) to go to the application page
+description: Assistant Professor at the University of California, Santa Cruz. <br /> I'm looking for graduate students interested in starting Fall 2022! <br/>(Click here)[https://grad.soe.ucsc.edu/cse] for information about CSE at UC Santa Cruz; (click here)[https://applygrad.ucsc.edu/apply/] to go directly to the application page
 
 profile:
   align: right
