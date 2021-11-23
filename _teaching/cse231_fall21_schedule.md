@@ -35,7 +35,7 @@ category: schedule
 |11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi | |
 |11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)     | |Andrew | |
 |11/26 | (Thanksgiving)       |                           | | | |
-|11/29 | Debate               | Is DBOS `good' or `bad'?  | |All | |
+|11/29 | Debate               | Is DBOS 'good' or 'bad'?  | |All | |
 |12/01 | Presentations        |                           | | | |
 |12/03 | Presentations        |                           | | | Quiz #2 |
 |12/07 | (Final Examination)  | No Final | | | Project Paper Due |
