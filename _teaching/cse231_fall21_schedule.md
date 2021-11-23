@@ -30,14 +30,15 @@ category: schedule
 |11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene | Project Check-in (Paper) |
 |11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |Fabien | |
 |11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |Lakshmi | |
-|11/17 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan | |
-|11/19 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi | |
-|11/22 | Security             | [EROS](https://dl.acm.org/doi/10.1145/319344.319163)    | |Andrew | |
-|11/24 | Security             | [HiStar](https://www.usenix.org/legacy/events/osdi06/tech/zeldovich.html)    | |Andrew | |
+|11/17 | Cancelled            | Class Cancelled for Strike                                                         | |        | | 
+|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan | |
+|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi | |
+|11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)     | |Andrew | |
 |11/26 | (Thanksgiving)       |                           | | | |
-|11/29 | What Did We Learn?   |                           | |Andrew | |
-|12/01 | Presentations        |                           | | | Project Final Paper |
+|11/29 | Debate               | Is DBOS `good' or `bad'?  | |All | |
+|12/01 | Presentations        |                           | | | |
 |12/03 | Presentations        |                           | | | Quiz #2 |
+|12/07 | (Final Examination)  | No Final | | | Project Paper Due |
 
 
 
