@@ -26,14 +26,14 @@ category: schedule
 |11/01 | Virtualization       | [Disco](https://dl.acm.org/doi/10.1145/265924.265930)   | |Amogh<br />[Andrew](/assets/pdf/CSE231_16.pdf) | |
 |11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |Nayan<br />[Andrew](/assets/pdf/CSE231_17.pdf) | |
 |11/05 | Project Check-in     |                                    | |All | Project Check-in (Presentation) |
-|11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |Surya | |
-|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene | Project Check-in (Paper) |
-|11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |Fabien | |
-|11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |Lakshmi | |
+|11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |Surya<br />[Andrew](/assets/pdf/CSE231_18.pdf)| |
+|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |Eugene<br />[Andrew](/assets/pdf/CSE231_19.pdf) | Project Check-in (Paper) |
+|11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |Fabien<br />[Andrew](/assets/pdf/CSE231_20.pdf) | |
+|11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |Lakshmi<br />[Andrew](/assets/pdf/CSE231_21.pdf) | |
 |11/17 | Cancelled            | Class Cancelled for Strike                                                         | |        | | 
-|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan | |
+|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan<br />[Andrew](/assets/pdf/CSE231_22.pdf) | |
 |11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi | |
-|11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)     | |Andrew | |
+|11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)<br />See google group     | |[Andrew](https://docs.google.com/presentation/d/1CZbC64aq8uU8C3zOytawIjqzy60QBgvue0DxeNumqj0/edit?usp=sharing) | |
 |11/26 | (Thanksgiving)       |                           | | | |
 |11/29 | Debate               | Is DBOS 'good' or 'bad'?  | |All | |
 |12/01 | Presentations        |                           | | | |
