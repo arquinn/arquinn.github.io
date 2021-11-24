@@ -32,7 +32,7 @@ category: schedule
 |11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |Lakshmi<br />[Andrew](/assets/pdf/CSE231_21.pdf) | |
 |11/17 | Cancelled            | Class Cancelled for Strike                                                         | |        | | 
 |11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |Brevan<br />[Andrew](/assets/pdf/CSE231_22.pdf) | |
-|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi | |
+|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |Junyi<br />[Andrew](/assets/pdf/CSE231_23.pdf)  | |
 |11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)<br />See google group     | |[Andrew](https://docs.google.com/presentation/d/1CZbC64aq8uU8C3zOytawIjqzy60QBgvue0DxeNumqj0/edit?usp=sharing) | |
 |11/26 | (Thanksgiving)       |                           | | | |
 |11/29 | Debate               | Is DBOS 'good' or 'bad'?  | |All | |
