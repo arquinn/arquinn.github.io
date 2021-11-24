@@ -27,12 +27,12 @@ category: schedule
 |11/03 | Virtualization       | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)    | |[Nayan](/assets/pdf/CSE231_xen.pdf)<br />[Andrew](/assets/pdf/CSE231_17.pdf) | |
 |11/05 | Project Check-in     |                                    | |All | Project Check-in (Presentation) |
 |11/08 | Virtualization       | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)                         | |[Surya](/assets/pdf/CSE231_balooning.pdf)<br />[Andrew](/assets/pdf/CSE231_18.pdf)| |
-|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |[Eugene](/assets/pdf/CSE_Revirt.pdf)<br />[Andrew](/assets/pdf/CSE231_19.pdf) | Project Check-in (Paper) |
-|11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |[Fabien](/assets/pdf/CSE_Eraser.pdf)<br />[Andrew](/assets/pdf/CSE231_20.pdf) | |
-|11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |[Lakshmi](/assets/pdf/CSE_Bugs.pdf)<br />[Andrew](/assets/pdf/CSE231_21.pdf) | |
+|11/10 | Virtualization       | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)        | |[Eugene](/assets/pdf/CSE231_Revirt.pdf)<br />[Andrew](/assets/pdf/CSE231_19.pdf) | Project Check-in (Paper) |
+|11/12 | Reliability          | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927)                  | |[Fabien](/assets/pdf/CSE231_Eraser.pdf)<br />[Andrew](/assets/pdf/CSE231_20.pdf) | |
+|11/15 | Reliability          | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)           | |[Lakshmi](/assets/pdf/CSE231_Bugs.pdf)<br />[Andrew](/assets/pdf/CSE231_21.pdf) | |
 |11/17 | Cancelled            | Class Cancelled for Strike                                                         | |        | | 
-|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |[Brevan](/assets/pdf/CSE_Nooks.pdf)<br />[Andrew](/assets/pdf/CSE231_22.pdf) | |
-|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |[Junyi](/assets/pdf/CSE_FOC.pdf)<br />[Andrew](/assets/pdf/CSE231_23.pdf)  | |
+|11/19 | Reliability          | [Nooks](https://dl.acm.org/doi/abs/10.1145/945445.945466)                              | |[Brevan](/assets/pdf/CSE231_Nooks.pdf)<br />[Andrew](/assets/pdf/CSE231_22.pdf) | |
+|11/22 | Reliability          | [Failure Oblivious Computing](https://www.usenix.org/conference/osdi-04/enhancing-server-availability-and-security-through-failure-oblivious-computing) | |[Junyi](/assets/pdf/CSE231_FOC.pdf)<br />[Andrew](/assets/pdf/CSE231_23.pdf)  | |
 |11/24 | Wrap-UP              | [DBOS](https://arxiv.org/abs/2007.11112)<br />See google group     | |[Andrew](https://docs.google.com/presentation/d/1CZbC64aq8uU8C3zOytawIjqzy60QBgvue0DxeNumqj0/edit?usp=sharing) | |
 |11/26 | (Thanksgiving)       |                           | | | |
 |11/29 | Debate               | Is DBOS 'good' or 'bad'?  | |All | |
