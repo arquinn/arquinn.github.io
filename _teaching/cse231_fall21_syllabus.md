@@ -93,7 +93,7 @@ The learning outcomes will be assessed through the following:
   mid-term presentation, final presentation, and final research paper.
   This assignment will provide you with the experience of performing
   research in the operating systems field.
-- (10%) Paper Reviews: We will be writing reviews for the papers that
+- (15%) Paper Reviews: We will be writing reviews for the papers that
   we read in this course.  These reviews will help practice critical
   examination of OS papers.  You are able to skip a total of two
   reviews across the quarter (choose wisely!).  Reviews will be submitted
@@ -105,7 +105,7 @@ The learning outcomes will be assessed through the following:
   this semester.  You will be able to choose the papers that you
   present.  I will discuss Guidelines for presentations during the
   first week of the course.
-- (10%) Participation: Much of the discovery and learning in this
+- (15%) Participation: Much of the discovery and learning in this
   course will be driven by in-class discussion.  Participation will be
   assessed by engagement during in-class discussions.
 - (15%) Quizzes: We will have two quizzes to assess how well students
