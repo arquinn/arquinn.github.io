@@ -99,6 +99,11 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+
+  team:
+    output: true
+    permalink: /team/:path/
+  
 news_limit: 5
 
 # -----------------------------------------------------------------------------

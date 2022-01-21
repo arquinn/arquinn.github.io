@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Assistant Professor at the University of California, Santa Cruz. <br /> I'm looking for graduate students interested in starting Fall 2022! <br/><a href=https://grad.soe.ucsc.edu/cse>Information about CSE at UC Santa Cruz</a>; <a href=https://applygrad.ucsc.edu/apply/> link to the application page</a>
-
+description: Assistant Professor at the University of California, Santa Cruz.
 profile:
   align: right
   image: AQGreen.jpg
@@ -13,8 +12,8 @@ profile:
     <p>Santa Cruz, CA 95064</p>
 
 news: true  # includes a list of news items
-#selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+team: true # includes a list of students at the bottom of the page
 ---
 
 My goal is to make it easier for developers to build correct and
@@ -51,8 +50,6 @@ working with a group at UCSC to improve the reliability of GPUs
 Lastly, we are investigating the reliability and performance of
 applications in disaggregated computing.  We're studying the
 performance implications of using these system and proposing solutions
-to mitigate bottlenecks.  We're also identifying the tradeoffs between
-performance and reliability in these systems and finding ways to
-exploit them.
+to mitigate bottlenecks.  
 
 If any of this interests you, let's talk!
