@@ -37,6 +37,10 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
+    {% if page.team %}
+      {% include team.html %}
+    {% endif %}
+
     {% if page.social %}
     <div class="social">
       <div class="contact-icons">
