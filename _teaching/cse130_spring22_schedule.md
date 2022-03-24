@@ -1,6 +1,6 @@
 ---
 layout: class
-title: CSE 130, Sring 2022
+title: CSE 130, Spring 2022
 description: Introduction to Computer Systems
 category: schedule
 ---
