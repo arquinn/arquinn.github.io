@@ -1,3 +1,10 @@
+---
+layout: class
+title: CSE 130, Sring 2022
+description: Introduction to Computer Systems
+category: schedule
+---
+
 # Reading Schedule
 
 This will be updated throughout the course.  All Chapters/sections are
