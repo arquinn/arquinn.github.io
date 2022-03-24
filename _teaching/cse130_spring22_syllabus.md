@@ -1,7 +1,7 @@
 ---
 layout: class
 title: CSE 130, Spring 2022
-description: Introdcution to Computer Systems
+description: Introduction to Computer Systems
 category: syllabus
 ---
 
