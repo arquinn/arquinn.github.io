@@ -1,3 +1,11 @@
+---
+layout: class
+title: CSE 130, Spring 2022
+description: Introdcution to Computer Systems
+category: syllabus
+---
+
+
 # CSE130 Fall 2022
 ## Principles of Computer System Design
 
