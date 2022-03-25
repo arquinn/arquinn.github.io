@@ -92,16 +92,13 @@ disqus_shortname: al-folio # put your disqus shortname
 
 collections:
   news:
-    defaults:
-      layout: post
-    output: true
     permalink: /news/:path/
   teaching:
     output: true
     permalink: /teaching/:path/
-
+  publications:
+    permalink: /publications/:path/
   team:
-    output: true
     permalink: /team/:path/
   
 news_limit: 5
@@ -155,29 +152,7 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-
-  last_name: Quinn
-  first_name: [Andrew, A.]
-
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
+  name: Andrew Quinn
 
 # -----------------------------------------------------------------------------
 # Optional Features
