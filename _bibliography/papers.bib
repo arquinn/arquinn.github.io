@@ -37,7 +37,6 @@ abstract={Dynamic information flow tracking (DIFT) is an important
                   faster than the original execution of the program.},
 booktitle = {12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16)},
 year = {2016},
-isbn = {978-1-931971-33-1},
 address = {Savannah, GA},
 pages = {451--466},
 url = {https://www.usenix.org/conference/osdi16/technical-sessions/presentation/quinn},
@@ -89,7 +88,6 @@ abstract= { Current debugging tools force developers to choose between
                   while returning identical results.  },
 booktitle = {13th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 18)},
 year = {2018},
-isbn = {978-1-939133-08-3},
 address = {Carlsbad, CA},
 pages = {545--560},
 url = {https://www.usenix.org/conference/osdi18/presentation/quinn},
@@ -102,7 +100,6 @@ pdf={quinn18.pdf}
 author = {Quinn, Andrew and Flinn, Jason and Cafarella, Michael},
 title = {You Can't Debug What You Can't See: Expanding Observability with the OmniTable},
 year = {2019},
-isbn = {9781450367271},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3317550.3321428},
@@ -191,7 +188,6 @@ abstract = {Persistent Memory (PM) can be used by applications to
                   positives.},
 booktitle = {14th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 20)},
 year = {2020},
-isbn = {978-1-939133-19-9},
 pages = {1047--1064},
 url = {https://www.usenix.org/conference/osdi20/presentation/neal},
 publisher = {{USENIX} Association},
@@ -204,7 +200,6 @@ author = {Ian Neal and Andrew Quinn and Baris Kasikci},
 title = {Hippocrates: Healing Persistent Memory Bugs without Doing Any Harm},
 month = {April},
 year = {2021},
-isbn = {9781450383172},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3445814.3446694},
@@ -258,7 +253,6 @@ author = {Gefei Zuo and Jiacheng Ma and Andrew Quinn and Pramod Bhatotia and Ped
 title = {Execution Reconstruction: Harnessing Failure Reoccurrences for Failure Reproduction},
 month = {July},
 year = {2021},
-isbn = {9781450383912},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3453483.3454101},
@@ -293,19 +287,71 @@ abstract = {Reproducing production failures is crucial for software
                   average 0.3\% (up to 1.1\%) runtime monitoring
                   overhead for a broad range of real-world systems,
                   making it practical for real-world deployment.},
-booktitle = {Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation},
+booktitle = {Proceedings of the 42nd ACM SIGPLAN International
+                  Conference on Programming Language Design and
+                  Implementation},
 pages = {1155–1170},
-numpages = {16},
 pdf={zuo21.pdf}
 }
 
-@inproceedings {ma22,
-author = {Jiacheng Ma and Gefei Zuo and Kevin Loughlin and Haoyang Zhang and Andrew Quinn and Baris Kasikic},
+@inproceedings{Ma22,
+author = {Ma, Jiacheng and Zuo, Gefei and Loughlin, Kevin and Zhang,
+                  Haoyang and Quinn, Andrew and Kasikci, Baris},
 title = {Debugging in the Brave New World of Reconfigurable Hardware},
-booktitle = {Proceedings of the 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems},
-location = {Virtual, USA},
-series = {ASPLOS 2022},
 year = {2022},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
+doi = {10.1145/3503222.3507701},
+abstract = {Software and hardware development cycles have
+                  traditionally been quite distinct. Software allows
+                  post-deployment patches, which leads to a rapid
+                  development cycle. In contrast, hardware bugs that
+                  are found after fabrication are extremely costly to
+                  fix (and sometimes even unfixable), so the
+                  traditional hardware development cycle involves
+                  massive investment in extensive simulation and
+                  formal verification. Reconfigurable hardware, such
+                  as a Field Programmable Gate Array (FPGA), promises
+                  to propel hardware development towards an agile
+                  software-like development approach, since it enables
+                  a hardware developer to patch bugs that are detected
+                  during on-chip testing or in
+                  production. Unfortunately, FPGA programmers lack bug
+                  localization tools amenable to this rapid
+                  development cycle, since past tools mainly find bugs
+                  via simulation and verification. To develop hardware
+                  bug localization tools for a rapid development
+                  cycle, a thorough understanding of the symptoms,
+                  root causes, and fixes of hardware bugs is needed.
+                  In this paper, we first study bugs in existing FPGA
+                  designs and produce a testbed of
+                  reliably-reproducible bugs. We classify the bugs
+                  according to their intrinsic properties, symptoms,
+                  and root causes. We demonstrate that many hardware
+                  bugs are comparable to software bug counterparts,
+                  and would benefit from similar techniques for bug
+                  diagnosis and repair. Based upon our findings, we
+                  build a novel collection of hybrid static/dynamic
+                  program analysis and monitoring tools for debugging
+                  FPGA designs, showing that our tools enable a
+                  software-like development cycle by effectively
+                  reducing developers' manual efforts for bug
+                  localization.},
+booktitle = {Proceedings of the 27th ACM International Conference on
+                  Architectural Support for Programming Languages and
+                  Operating Systems},
+pages = {946–962},
+location = {Lausanne, Switzerland},
+series = {ASPLOS 2022}
+pdf={Ma22.pdf}
+}
+
+@inproceedings {quinn22,
+author = {Andrew Quinn and Michael Cafarella and Jason Flinn and Baris Kasikci},
+title = {Transcendent Debugging the Omnitable Way},
+booktitle = {12th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 16)},
+year = {2022},
+address = {Carlsbad, CA},
+publisher = {{USENIX} Association},
+month = July,
 }
