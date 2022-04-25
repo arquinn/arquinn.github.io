@@ -8,9 +8,10 @@ name: Asgn1 Dazzle
 
 # Assignment 1 Dazzle Points
 
-|username                |score||
+|username                |score|
 |------------------------|-----|
 |definitely not resources|90   |
+|leo                     |90   |
 |jlortiz                 |88   |
 |Kab1r                   |87   |
 |SohanK                  |87   |
