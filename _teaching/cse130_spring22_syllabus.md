@@ -13,7 +13,7 @@ category: syllabus
 |-----|-------|
 |When: | Monday, Wednesday, and Friday at <b>2:40 PM--3:45 PM</b>|
 |Where: | Humanities Lecture Hall (Room #206) |
-|Who: | [Dr. Andrew Quinn](http://arquinn.github.io) & [Dr. Chris Parsa](https://engineering.ucsc.edu/people/chris)|
+|Who: | [Dr. Andrew Quinn](http://arquinn.github.io) & [Chris Parsa](https://engineering.ucsc.edu/people/chris)|
 |Office hours: | TBD |
 |Prerequisites: | CSE 12 and (CSE 101 or (CSE 15 and CSE 15L)); knowledge of C programming language. |
 |Required Text: | Principles of Computer System Design, Saltzer & Kaashoek (ISBN 0123749573)|
