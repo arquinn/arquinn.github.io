@@ -10,6 +10,7 @@ layout: default
 <div class="grid">
 {% assign syllabus = site.teaching | where: "title", page.title | where: "category", "syllabus" | first%}
 {% assign schedule = site.teaching | where: "title", page.title | where: "category", "schedule" | first%}
+{% assign dazzlers = site.teaching | where: "title", page.title | where: "category", "dazzle" %}
 
 <div class="grid-item">
   <a href="{{ syllabus.url | relative_url }}">
@@ -29,6 +30,22 @@ layout: default
     </div>
   </a>
 </div>
+
+HELLO WORLD
+{% for dazzle in dazzlers  %}
+
+<div class="grid-item">
+  <a href="{{ dazzle.url | relative_url }}">
+    <div class="card hoverable">
+      <div class="card-body">
+        <h2 class="card-title">{{dazzle.name}}</h2>
+      </div>
+    </div>
+  </a>
+</div>
+{% endfor %}
+
+
 </div>
 
 
