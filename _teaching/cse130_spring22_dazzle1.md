@@ -10,15 +10,27 @@ name: Asgn1 Dazzle
 
 |username                |score|
 |------------------------|-----|
-|definitely not resources|90   |
+|definitely not resources|89   |
+|Kab1r                   |90   |
 |leo                     |90   |
-|jlortiz                 |88   |
-|Kab1r                   |87   |
+|jlortiz                 |89   |
+|Leaf                    |87   |
+|notEric                 |87   |
+|jack                    |87   |
 |SohanK                  |87   |
-|rangedminion123         |76   |
-|NotLast                 |68   |
-|flaxxo                  |34   |
-|Weekie                  |14   |
-|Leaf                    |11   |
-|???                     |10   |
-|VladL.                  |0    |
+|Sway                    |87   |
+|sren                    |86   |
+|name                    |84   |
+|euge🅱️e                 |84   |
+|Art3m1s                 |82   |
+|NotLast                 |80   |
+|rangedminion123         |80   |
+|Ferrari Master Blan     |79   |
+|VladL.                  |74   |
+|KevinDing               |73   |
+|the way                 |59   |
+|showmethezero           |58   |
+|Weekie                  |49   |
+|name                    |44   |
+|flaxxo                  |31   |
+|jessie                  |7    |
