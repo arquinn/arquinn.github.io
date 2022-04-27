@@ -10,7 +10,7 @@ name: Asgn1 Dazzle
 
 |username                |score|
 |------------------------|-----|
-|definitely not resources|89   |
+|definitely not resources|90   |
 |Kab1r                   |90   |
 |leo                     |90   |
 |jlortiz                 |89   |
