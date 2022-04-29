@@ -1,5 +1,5 @@
 ---
-title: "Hippocrates: Healing Persistent Memory Bugs without Doing Any Harm"
+title: "Debugging in the Brave New World of Reconfigurable Hardware"
 authors:
   - Jiacheng Ma
   - Gefei Zuo
