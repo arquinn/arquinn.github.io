@@ -1,0 +1,3 @@
+[submodule "submodules/CV"]
+	path = submodules/CV
+	url = git@github.com:arquinn/CV.git
