@@ -1,0 +1,43 @@
+Additional Papers to read:
+
+- Cool Kernel Designs:
+
+
+* Ix (x)
+* A Case for RAID
+
+
+
+* Scalable-Commutativity Rule
+* SEDA
+* Memory Coherence in Shared Virtual Memory Systems
+
+
+
+- The Locality Principle (?):
+* Gamsa Tornado, OSDI '99
+* The working set model for program behavior
+
+
+- Security:
+  * Asbestos
+
+
+Additionally, want to cover:
+
+* The efficient Server Audit Problem.
+* The OmniTable.
+* Something, something, Information Flow? 
+
+
+Wisdom:
+* End-to-End arguments in System Design
+* The design of DARPA Internet Protocols.
+* The Architecture of Complexity
+* The Locality Principle
+* Strong Inference
+* You and Your Research
+* Hints for Computer System Design
+
+
+* Lightweight Remote Procdure Calls

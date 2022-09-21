@@ -8,8 +8,8 @@ layout: default
     <div class="post-description">
       <p>{{ page.description }}</p>
 <div class="grid">
-{% assign syllabus = site.teaching | where: "title", page.title | where: "category", "syllabus" | first%}
-{% assign schedule = site.teaching | where: "title", page.title | where: "category", "schedule" | first%}
+{% assign syllabus = site.teaching | where: "title", page.title | where: "term", page.term | where: "year", page.year | where: "category", "syllabus" | first%}
+{% assign schedule = site.teaching | where: "title", page.title | where: "term", page.term | where: "year", page.year | where: "category", "schedule" | first%}
 {% assign dazzlers = site.teaching | where: "title", page.title | where: "category", "dazzle" %}
 
 <div class="grid-item">
