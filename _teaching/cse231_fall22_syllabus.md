@@ -3,17 +3,14 @@ layout: class
 title: CSE 231
 term: Fall
 description: Advanced Operating Systems
-year: 2021-2022
+year: 2022-2023
 category: syllabus
 ---
 
 CSE 231 will introduce students to research in operating systems (OS).
-To this end, we will perform a detailed study on the issues in
-operating systems design and implementation, with special focus on
-providing historical context for the research topics explored by the
-community today.  After this course, you will be able to read,
-understand, contextualize, and apply concepts from operating systems
-research.
+To this end, we will issues in operating systems design and
+implementation, with special focus on providing historical context for
+the research topics explored by the community today.
 
 ## COVID-19 Information
 
@@ -22,107 +19,84 @@ everyone else in our community. Please take care to comply with all
 university guidelines about masking in indoor settings, performing
 daily symptom and badge checks, testing as required by the campus
 vaccine policy, self-isolating in the event of exposure, and
-respecting others’ comfort with distancing.  Please do not come to
-class if your badge is not green, and expect to wear a mask at all
-class sessions.  If you forget your mask, you can ask me for one;
-there is a limited supply of disposable masks in each classroom.
-
-If you are ill or suspect you may have been exposed to someone who is
-ill, or if you have symptoms that are in any way similar to those of
-COVID-19, please err on the side of caution and stay home until you
-are well or have tested negative after an exposure.  Please
-communicate with me if you experience an illness or exposure that
-requires you to miss class sessions; I will provide you with options
-so that you can continue to make progress in the course.  that you can
-keep making progress
-
-I have designed our course following campus guidance and with current
-public health guidelines in mind. However, these guidelines may change
-in accordance with shifting infection rates or the emergence of new
-variants. If updated public health recommendations and university
-requirements make our current course format unfeasible, or if I
-experience a need to self-isolate, I will alter the format. This may
-include moving in-person sessions onto Zoom and/or modifying course
-assignments to work in a remote format. I will communicate clearly
-with you via email about any changes that occur. I will provide as
-much advance warning as possible and give you all the information you
-need to transition smoothly to the new format. If you have questions
-about the changes, please reach out to me so I can answer them.
-
+respecting others’ comfort with distancing.
 
 ## Instructor Information
 
-My name is Andrew Quinn; in this course you can address me as
+My name is Andrew Quinn; in this course you may address me as
 `Andrew'. The best way to contact me is through email
 (aquinn1@ucsc.edu). If you would like to meet in person, please email
 me to setup a time.
 
-### Learning Outcomes
+## Learning Objectives
 
-As stated above, the goal of CSE is to introduce students to research
-in operating systems.  The skills developed through this course will
-help students think critically and contribute to the operating systems
-research community.  More specifically, this course has the following
-objectives:
+* After this course, students will be able to critically read
+  and review papers from the operating systems community.
 
-- At the end of this course, students will be able to critically read
-  and review papers from the operating systems community. 
-- At the end of this course, students will be able to articulate and
+* After this course, students will be able to articulate and
   teach others about the core concept and contributions of a research
   project in operating systems.
-- At the end of this course, students will be able to pursue and
-  conduct systems research projects.
 
+* After this course, students will be able to pursue and
+  conduct systems research projects.
 
 ## Prerequisites
 
 While not required, prior engagement with operating systems concepts,
 including processes, file systems, and virtual memory will be useful
-for this course.  If you are concerned about gaps in your background
-knowledge, please come see me and we can have a discussion.
+for this course.
 
 ## Required Materials, Textbooks, and Technology
 
 Students will need access to a personal computer for success in this
-course.  Please contact me if you have hardship in securing a
-computer; UCSC has programs that can help you.
+course; please contact me if you have hardship in securing a
+computer.
+
 
 ## Assignments and Assessment
 
 The learning outcomes will be assessed through the following:
-- (40%) Course Project : You will work with a team to perform a
+
+* (40%) Course Project : You will work with a team to perform a
   systems research project.  Deliverables will include a proposal,
-  mid-term presentation, final presentation, and final research paper.
-  This assignment will provide you with the experience of performing
-  research in the operating systems field.
-- (15%) Paper Reviews: We will be writing reviews for the papers that
-  we read in this course.  These reviews will help practice critical
-  examination of OS papers.  You are able to skip a total of two
-  reviews across the quarter (choose wisely!).  Reviews will be submitted
-  through [hotCRP](https://ucsc-cse231-21.hotcrp.com/).  We will
-  discuss the guidelines for writing reviews during the first week of
-  the course.
-- (15%) Paper Presentations: Each student will be responsible for
+  mid-term progress report, and final research paper.  This assignment
+  will provide you with the experience of performing research in the
+  operating systems field.
+
+* (20%) Paper Reviews: You will write reviews of the papers that we
+  read in this course, with the ability to skip 3 assignments.  We
+  will discuss guidelines from writing reviews early in the course and
+  they will be reiterated in the instructions for each assignment.
+
+- (20%) Reflections: There will be a few class discussions that
+  warrant a deeper reflection on the material covered in class.  We
+  will provide prompts for detailed written reflection after such
+  discussion (see the schedule for more information).
+
+- (10%) Paper Presentations: Each student will be responsible for
   presenting and leading the discussion of one-two papers that we read
   this semester.  You will be able to choose the papers that you
-  present.  I will discuss Guidelines for presentations during the
-  first week of the course.
-- (15%) Participation: Much of the discovery and learning in this
+  present (you will be placed into groups for the presentations).
+
+- (10%) Participation: Much of the discovery and learning in this
   course will be driven by in-class discussion.  Participation will be
   assessed by engagement during in-class discussions.
-- (15%) Quizzes: We will have two quizzes to assess how well students
-  are able to apply the operating systems concepts that we have
-  learned.  These will be short take-home quizzes. 
 
 
-I will provide timely feedback on assignments so that you know how
-your learning is progressing.  Paper reviews will likely take 1--2
-hours to complete, especially if you are unfamiliar with the related
-work.  Paper presentations will likely require closer to 3 hours.
-Finally, I expect that the quizzes will require at most 2 hours to
-complete.  Let me know if you are consistently struggling to perform
-these tasks in the stated amount of time, it is likely that you are
-doing more than is necessary.
+## A Day in the Life...
+
+There are three types of course meetings:
+
+(1) Lessons: I will lecture to provide context and high-level
+background.  Note: in most cases you will still have a paper to read
+for lesson days.
+
+(2) Discussion: We will discuss a paper in small groups and as a
+whole.
+
+(3) Presentations: There will be two presentations given by two groups
+of students on each presentation day.  Note: you will need to have
+read one of the papers deeply
 
 
 ## Student Feedback
@@ -130,9 +104,9 @@ doing more than is necessary.
 In the first third of this course, I will solicit feedback to help
 make sure that you are learning effectively.  At the end of the
 quarter you will be asked to complete a Student Experience of Teaching
-survey for this course. SETs provide an opportunity for you to give
+survey for this course.  SETs provide an opportunity for you to give
 valuable feedback on your learning that is honest and
-constructive. This anonymous feedback will help me consider
+constructive.  This anonymous feedback will help me consider
 modifications to the course that will help future students learn more
 effectively.
 
@@ -146,7 +120,7 @@ in order to preserve the integrity of scholarship.
 Academic integrity includes:
 - Following assessment rules
 - Incorporating proper citation of all sources of information
-- Submitting your own original work 
+- Submitting your own original work
 
 Academic misconduct includes, but is not limited to, the following:
 - Copying/purchasing any material from another student, or from
@@ -212,7 +186,7 @@ also seek assistance from the Dean of Students office
 
 
 ## Principles of Community
-                                                                                                   
+
 The University of California, Santa Cruz expressly prohibits students
 from engaging in conduct constituting unlawful discrimination,
 harassment or bias (see
@@ -236,7 +210,6 @@ where we are all learning together.
 
 ## Title IX and CARE
 
-
 UC Santa Cruz is committed to providing a safe learning environment
 that is free of all forms of gender discrimination and sexual
 harassment, which are explicitly prohibited under Title IX. If you
@@ -245,7 +218,7 @@ domestic violence, dating violence, or stalking, know that you are not
 alone. The Title IX Office, the Campus Advocacy, Resources & Education
 (CARE) office, and Counseling & Psychological Services (CAPS) are all
 resources that you can rely on for support.
- 
+
 Please be aware that if you tell me about a situation involving Title
 IX misconduct, I am required to share this information with the Title
 IX Coordinator. This reporting responsibility also applies to course
@@ -256,7 +229,7 @@ notification, you will control how your case will be handled,
 including whether or not you wish to pursue a formal complaint. The
 goal is to make sure that you are aware of the range of options
 available to you and that you have access to the resources you need.
- 
+
 Confidential resources are available through
 [CARE](https://care.ucsc.edu). Confidentiality means CARE advocates
 will not share any information with Title IX, the police, parents, or
@@ -265,22 +238,27 @@ support you in understanding your rights and options, accessing health
 and counseling services, providing academic and housing
 accommodations, helping with legal protective orders, and more. You
 can contact CARE at (831) 502-2273 or care@ucsc.edu.
- 
+
 In addition to CARE, these resources are available to you:
 
-- If you need help figuring out what resources you or someone else
-  might need, visit the [resources page from the Title IX Office](https://titleix.ucsc.edu/_content-blocks/left-nav-blocks/resources-landing-page.html)
-- Counseling & Psychological Services (CAPS) can provide confidential
+* If you need help figuring out what resources you or someone else
+  might need, visit the [resources page from the Title IX
+  Office](https://titleix.ucsc.edu/_content-blocks/left-nav-blocks/resources-landing-page.html)
+
+* Counseling & Psychological Services (CAPS) can provide confidential
   [counseling support](https://caps.ucsc.edu). Call them at (831)
   459-2628.
-- You can also report gender discrimination and sexual harassment and
+
+* You can also report gender discrimination and sexual harassment and
   violence directly to the University’s Title IX Office
   (https://titleix.ucsc.edu), by calling (831) 459-2462 or by using
   their [online reporting tool](https://titleix.ucsc.edu/about/staff-contact-us.html).
-- Reports to law enforcement can be made to the UC Police Department,
+
+* Reports to law enforcement can be made to the UC Police Department,
   (831) 459-2231 ext. 1.
-- For emergencies, call 911.
-                                                                                                   
+
+* For emergencies, call 911.
+
 
 ## Report an Incident of Hate or Bias
 

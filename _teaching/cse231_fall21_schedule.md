@@ -1,6 +1,8 @@
 ---
 layout: class
-title: CSE 231, Fall 2021
+title: CSE 231
+term: Fall
+year: 2021-2022
 description: Advanced Operating Systems
 category: schedule
 ---
