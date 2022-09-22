@@ -57,7 +57,7 @@ computer.
 
 The learning outcomes will be assessed through the following:
 
-* (40%) Course Project : You will work with a team to perform a
+* (30%) Course Project : You will work with a team to perform a
   systems research project.  Deliverables will include a proposal,
   mid-term progress report, and final research paper.  This assignment
   will provide you with the experience of performing research in the
@@ -73,12 +73,12 @@ The learning outcomes will be assessed through the following:
   will provide prompts for detailed written reflection after such
   discussion (see the schedule for more information).
 
-- (10%) Paper Presentations: Each student will be responsible for
+- (15%) Paper Presentations: Each student will be responsible for
   presenting and leading the discussion of one-two papers that we read
   this semester.  You will be able to choose the papers that you
   present (you will be placed into groups for the presentations).
 
-- (10%) Participation: Much of the discovery and learning in this
+- (15%) Participation: Much of the discovery and learning in this
   course will be driven by in-class discussion.  Participation will be
   assessed by engagement during in-class discussions.
 
