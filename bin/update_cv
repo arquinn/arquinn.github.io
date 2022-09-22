@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+## run this script to update the cv
+
+
+pushd /tmp/
+git clone https://github.com/arquinn/CV.git
+cd CV
+make
+popd
+
+echo "trying the next part?"
+mv /tmp/CV/Andrew_Quinn_CV.pdf assets/pdf/CV.pdf
+
+echo "done?"
+
+rm -rf tmp/CV
+
