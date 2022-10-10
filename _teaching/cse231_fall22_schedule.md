@@ -26,19 +26,21 @@ category: schedule
 | 10/26 | **Lesson**     | Virtualization                           | [Virtualization Requirements](https://dl.acm.org/doi/10.1145/361011.361073) | | Review|
 | 10/28 | **Discussion** | Para-virtualization                      | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)   | | Review |
 | 10/31 | **Discussion** | Making Virtualizaiton Efficient          | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)    | | Review |
-| 11/02 | **Lesson**     | Reliability                              | [Why do Computers stop](https://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf) | | Review<br /> FS Reflect |
-| 11/04 | **Discussion** | Finding Bugs                             | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927) | | Review |
-| 11/07 | **Discussion** | Isolating Failures                       | [PCC](https://personal.utdallas.edu/~hamlen/Papers/necula96safe.pdf) | | Review |
-| 11/09 | **Presentations** | Review and first Presentations  | Student Choice #1 | | Review |
-| 11/11 | **No Class**| Veteran's Day|                          |  | | |
-| 11/14 | **Presentations** | Students Choices | Student Choice #2<br /> Student Choice #3 | | Review<br />Reliable Reflect |
-| 11/16 | **Presentations** | Students Choices | Student Choice #4<br /> Student Choice #5 | | Review |
-| 11/21 | **Presentations** | Students Choices | Student Choice #6<br /> Student Choice #7 | | Review |
-| 11/23 | **Presentations** | Students Choices | Student Choice #8<br /> Student Choice #9 | | Review |
+| 11/02 | **Discussion** | Using Virtualization                     | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)  | | Review | 
+| 11/04 | **Lesson**        | Reliability                              | [Why do Computers stop](https://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf) | | Review<br /> FS Reflect |
+| 11/07 | **Discussion**    | Finding Bugs                             | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927) | | Review |
+| 11/09 | **Presentations** | Isolating Failures                       | [PCC](https://personal.utdallas.edu/~hamlen/Papers/necula96safe.pdf) | | Review |
+| 11/11 | **No Class**      | Veteran's Day|                          |  | | |
+| 11/14 | **Presentations** | Students Choices | Student Choice #1<br /> Student Choice #2 | | Review<br />Reliable Reflect |
+| 11/16 | **Presentations** | Students Choices | Student Choice #3<br /> Student Choice #4 | | Review |
+| 11/21 | **Presentations** | Students Choices | Student Choice #5<br /> Student Choice #6 | | Review |
+| 11/23 | **Presentations** | Students Choices | Student Choice #7<br /> Student Choice #8 | | Review |
 | 11/25 | **No Class**| Thanksgiving |                           |  | | |
-| 11/28 | **Presentations** | Students Choices | Student Choice #10<br /> Student Choice #11 | | Review |
-| 11/30 | **Presentations** | Students Choices | Student Choice #12<br /> Student Choice #13 | | Review |
+| 11/28 | **Presentations** | Students Choices | Student Choice #9<br /> Student Choice #10 | | Review |
+| 11/30 | **Presentations** | Students Choices | Student Choice #11<br /> Student Choice #12 | | Review |
 | 12/02 | **Debate** | Distributed Systems: RPC vs DSM               | [Implementing RPC]()<br />[Ivy]() | | Review |
+
+
 
 ## Paper Pool for Presentations
 
@@ -58,7 +60,6 @@ category: schedule
 | Cool Virtualization | [Hypervisor](https://www.cs.cornell.edu/fbs/publications/vft.sosp.pdf) | How can we get transparent fault tolerance? |
 | Cool Virtualization | [LightVM](https://dl.acm.org/doi/pdf/10.1145/3132747.3132763) | How small can we make VMs? |
 | Cool Virtualization | [IX](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf)  | Can we use this virtualization stuff for faster networking? |
-| Cool Virtualization | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)  | Using Record/replay to understand security attacks. |
 | Cool Reliability    | [Kairux](https://dl.acm.org/doi/10.1145/3341301.3359650) | What even is a bug? |
 | Cool Reliability    | [Bugs as Deviant Behavior](https://dl.acm.org/doi/10.1145/502034.502041)| Detecting software bugs as
 | Cool Reliability    | [Microreboot](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf) | ``Have you tried turning it off and on again?'' |
