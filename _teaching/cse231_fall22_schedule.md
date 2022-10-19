@@ -20,7 +20,7 @@ category: schedule
 | 10/12 | **Discussion** | Scheduler Policies                       | [Lottery Scheduling](https://www.usenix.org/conference/osdi-94/lottery-scheduling-flexible-proportional-share-resource-management) | | Review |
 | 10/14 | **Discussion** | Scheduler designs                        | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)                | | Review |
 | 10/17 | **Lesson**     | File Systems                             | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990) | | Review<br />Kernel Reflect|
-| 10/19 | **Discussion** | Log-Structured File System               | [LFS](https://dl.acm.org/doi/10.1145/121132.121137) | Clustering vs. logging | Review |
+| 10/19 | **Discussion** | Log-Structured File System               | [LFS](https://dl.acm.org/doi/10.1145/121132.121137) | [Clustering vs. logging](https://www.usenix.org/legacy/publications/library/proceedings/neworl/full_papers/seltzer.pdf) | Review |
 | 10/21 | **Discussion** | Distributed File Systems                 | [Speculator](https://dl.acm.org/doi/10.1145/1095810.1095829) |  | Review |
 | 10/24 | **Discussion** | Single Level Stores                      | [Eros](https://dl.acm.org/doi/10.1145/319344.319163) | | Review |
 | 10/26 | **Lesson**     | Virtualization                           | [Virtualization Requirements](https://dl.acm.org/doi/10.1145/361011.361073) | | Review|
