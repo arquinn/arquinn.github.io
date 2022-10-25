@@ -21,12 +21,12 @@ category: schedule
 | 10/14 | **Discussion** | Scheduler designs                        | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)                | | Review |
 | 10/17 | **Lesson**     | File Systems                             | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990) | | Review<br />Kernel Reflect|
 | 10/19 | **Discussion** | Log-Structured File System               | [LFS](https://dl.acm.org/doi/10.1145/121132.121137) | [Clustering vs. logging](https://www.usenix.org/legacy/publications/library/proceedings/neworl/full_papers/seltzer.pdf) | Review |
-| 10/21 | **Discussion** | Distributed File Systems                 | [Speculator](https://dl.acm.org/doi/10.1145/1095810.1095829) |  | Review |
-| 10/24 | **Discussion** | Single Level Stores                      | [Eros](https://dl.acm.org/doi/10.1145/319344.319163) | | Review |
-| 10/26 | **Lesson**     | Virtualization                           | [Virtualization Requirements](https://dl.acm.org/doi/10.1145/361011.361073) | | Review|
-| 10/28 | **Discussion** | Para-virtualization                      | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)   | | Review |
-| 10/31 | **Discussion** | Making Virtualizaiton Efficient          | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)    | | Review |
-| 11/02 | **Discussion** | Using Virtualization                     | [ReVirt](https://www.usenix.org/legacy/publications/library/proceedings/osdi02/tech/dunlap.html)  | | Review | 
+| 10/21 | **Cancelled**  | --                                       | -- | -- | -- |
+| 10/24 | **Discussion** | Distributed File Systems                 | [Speculator](https://dl.acm.org/doi/10.1145/1095810.1095829) |  | Review |
+| 10/26 | **Discussion** | Single Level Stores                      | [Eros](https://www.usenix.org/conference/2002-usenix-annual-technical-conference/design-evolution-eros-single-level-store) | | Review |
+| 10/28 | **Lesson**     | Virtualization                           | [Virtualization Requirements](https://dl.acm.org/doi/10.1145/361011.361073) | | Review|
+| 10/31 | **Discussion** | Para-virtualization                      | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)   | | Review |
+| 11/02 | **Discussion** | Making Virtualization Efficient          | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)    | | Review |
 | 11/04 | **Lesson**        | Reliability                              | [Why do Computers stop](https://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf) | | Review<br /> FS Reflect |
 | 11/07 | **Discussion**    | Finding Bugs                             | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927) | | Review |
 | 11/09 | **Presentations** | Isolating Failures                       | [PCC](https://personal.utdallas.edu/~hamlen/Papers/necula96safe.pdf) | | Review |
