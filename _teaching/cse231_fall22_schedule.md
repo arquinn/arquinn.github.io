@@ -19,7 +19,7 @@ category: schedule
 | 10/10 | **Lesson**         | Scheduling                               | [A decade of wasted cores](https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf)| | Review |
 | 10/12 | **Discussion**     | Scheduler Policies                       | [Lottery Scheduling](https://www.usenix.org/conference/osdi-94/lottery-scheduling-flexible-proportional-share-resource-management) | | Review |
 | 10/14 | **Discussion**     | Scheduler designs                        | [Scheduler Activations](https://dl.acm.org/doi/10.1145/121132.121151)                | | Review |
-| 10/17 | **Lesson**         | File Systems                             | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990) | | Review<br />Kernel Reflect|
+| 10/17 | **Lesson**         | File Systems                             | [A Fast File-System for UNIX](https://dl.acm.org/doi/10.1145/989.990) | | Review<br />Reflection|
 | 10/19 | **Discussion**     | Log-Structured File System               | [LFS](https://dl.acm.org/doi/10.1145/121132.121137) | [Clustering vs. logging](https://www.usenix.org/legacy/publications/library/proceedings/neworl/full_papers/seltzer.pdf) | Review |
 | 10/21 | **Cancelled**      | --                                       | -- | -- | -- |
 | 10/24 | **Discussion**     | Distributed File Systems                 | [Speculator](https://dl.acm.org/doi/10.1145/1095810.1095829) |  | Review |
@@ -28,18 +28,18 @@ category: schedule
 | 10/31 | **Discussion**     | Para-virtualization                      | [Xen](https://dl.acm.org/doi/10.1145/945445.945462)   | | Review |
 | 11/02 | **Discussion**     | Making Virtualization Efficient          | [Ballooning](https://dl.acm.org/doi/10.1145/844128.844146)    | | Review |
 | 11/04 | **Lesson**         | Reliability                              | [Why do Computers stop](https://www.hpl.hp.com/techreports/tandem/TR-85.7.pdf) | | Review |
-| 11/07 | **Discussion**     | Finding Bugs                             | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927) | | Review<br />Midterm Report |
+| 11/07 | **Discussion**     | Finding Bugs                             | [Eraser](https://dl.acm.org/doi/10.1145/265924.265927) | | Review<br />Mid Report |
 | 11/09 | **Presentations**  | Isolating Failures                       | [PCC](https://personal.utdallas.edu/~hamlen/Papers/necula96safe.pdf) | | Review |
 | 11/11 | **No Class**       | Veteran's Day                            | -- | -- | -- |
-| 11/14 | **Presentations**  | Students Choices | Student Choice #1<br /> Student Choice #2   | | Review<br /> FS Reflect |
+| 11/14 | **Presentations**  | Students Choices | [LightVM](https://dl.acm.org/doi/pdf/10.1145/3132747.3132763) (Tamir, Ananya) <br />  [Fault Isolation](https://dl.acm.org/doi/pdf/10.1145/168619.168635) (Jimmy, Apostolos)   | | Review<br /> Reflection |
 | 11/16 | **No Class**       | IAB Meeting                              | -- | -- | -- |
-| 11/18 | **Presentations**  | Students Choices | Student Choice #3<br /> Student Choice #4   | | Review |
-| 11/21 | **Presentations**  | Students Choices | Student Choice #5<br /> Student Choice #6   | | Review<br />Reliable Reflect |
+| 11/18 | **Presentations**  | Students Choices | [Kairux](https://dl.acm.org/doi/10.1145/3341301.3359650) (Arka, Tongze)<br /> [Bugs as Deviance](https://dl.acm.org/doi/10.1145/502034.502041) (Sebastian, Shun) | | Review |
+| 11/21 | **Presentations**  | Students Choices | [Microreboot](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/candea/candea.pdf) (Mitchell, Aakash, Diego) <br /> [Aurora](https://dl.acm.org/doi/10.1145/3477132.3483563) by Achilles, Aditya, and Pooneh   | | Review<br /> Reflection |
 | 11/23 | **No Class**       | Thanksgiving                             | -- | -- | -- |
 | 11/25 | **No Class**       | Thanksgiving                             | -- | -- | -- |
-| 11/28 | **Presentations**  | Students Choices | Student Choice #7<br /> Student Choice #8  | | Review |
-| 11/30 | **Presentations**  | Students Choices | Student Choice #9<br /> Student Choice #10 | | Review |
-| 12/02 | **Debate**         | Distributed Systems: RPC vs DSM          | [Implementing RPC]()<br />[Ivy]() | | Review |
+| 11/28 | **Presentations**  | Students Choices | [Theseus](https://www.usenix.org/system/files/osdi20-boos.pdf) (Yiwei, Kai, Zheyuan) <br /> [Failure-Oblivous Computing](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/rinard/rinard.pdf) (Farid, Tim)  | | Review |
+| 11/30 | **Presentations**  | Students Choices | [DemiKernel](https://dl.acm.org/doi/10.1145/3477132.3483569) (Nilesh, Jayjeet, Hamza) <br /> [LegoOS](https://www.usenix.org/system/files/osdi18-shan.pdf) (Supraja, Amin, Brian) | | Review |
+| 12/02 | **Debate**         | Distributed Systems:<br />RPC vs DSM          | [Implementing RPC]()<br />[Ivy]() | | Review |
 | 12/07 | **No Class**       | --                                       | -- | -- | Final Report |
 
 
