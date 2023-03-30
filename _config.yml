@@ -100,7 +100,7 @@ collections:
     permalink: /publications/:path/
   team:
     permalink: /team/:path/
-  
+
 news_limit: 5
 
 # -----------------------------------------------------------------------------
