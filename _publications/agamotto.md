@@ -8,7 +8,10 @@ authors:
   - Youngjin Kwon
   - Simon Peter
   - Baris Kasikci
-booktitle: 14th USENIX Symposium on Operating Systems Design and Implementation,
+
+booktitle: Proceedings of the 14th USENIX Symposium on Operating Systems Design
+           and Implementation
+
 month: Nov
 year: 2020
 abbr: OSDI

@@ -52,7 +52,7 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-right: 1rem;
   width: 100%;
 
   .address {
@@ -75,8 +75,16 @@ blockquote {
   }
 }
 
+.post-title {
+    margin-bottom: 2rem;
+    .desc {
+	margin-bottom: 0;
+    }
+}
+
+
 .post-description {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
   font-size: 0.875rem;
   a {
     color: inherit;
@@ -194,12 +202,14 @@ blockquote {
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  padding: 0;
 }
 
 .news table th {
     color: var(--global-text-color);
-    width: 10%;
+    width: 15%;
     vertical-align: middle;
+    padding: 0;
 }
 
 // Team
@@ -221,7 +231,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -427,6 +437,11 @@ footer.sticky-bottom {
 }
 
 
+.student-table {
+    width: 30%;
+}
+
+
 // Publications
 
 .publications {
@@ -456,12 +471,15 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
+    color: var(--global-text-color);
 
     li {
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
+	padding: 0rem;
+	width: 20%;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -473,28 +491,34 @@ footer.sticky-bottom {
               text-decoration: none;
             }
           }
+	  .badge {
+	      margin: 10rem;
+	  }
         }
         .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+          color: var(--global-text-color);
+	  font-weight: bolder;
+	  margin: 0rem;
         }
       }
-      .title {
-        font-weight: bolder;
+      strong {
+	  font-weight: bolder;
+	  color: var(--global-text-color);
       }
-      .author {
-        a {
-          border-bottom: 1px dashed var(--global-theme-color);
-          &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-          }
-        }
-        > em {
+      em {
           border-bottom: 1px solid;
           font-style: normal;
-        }
       }
+
+      p {
+	  margin: 0rem;
+      }
+
+     .main {
+	  padding: 0rem;
+	  width: 78%
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
