@@ -5,4 +5,4 @@ inline: true
 ---
 
 Eugene's proposal for a practical secure delete storage system, Lethe, was
-accepted to Cheops!
+accepted to [Cheops](https://asplos-conference.org/)!
