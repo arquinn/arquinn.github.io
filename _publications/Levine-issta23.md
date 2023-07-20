@@ -19,6 +19,9 @@ location: Seattle, WA, USA
 pdf: Levine-issta23.pdf
 type: conference
 
+award:
+  - Distinguished Artifact
+
 abstract: "Memory consistency specifications (MCSs) are a difficult, yet
            critical, part of a concurrent programming framework. Existing MCS
            testing tools are not immediately accessible, and thus, they have
