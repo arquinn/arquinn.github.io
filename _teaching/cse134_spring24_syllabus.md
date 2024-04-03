@@ -1,7 +1,7 @@
 ---
 layout: class
 title: CSE 134
-term: Winter
+term: Spring
 description: <s>Embedded</s> Operating Systems
 year: 2023-2024
 category: syllabus
@@ -13,7 +13,8 @@ category: syllabus
 |When: | Monday, Wednesday, and Friday at <b>9:20 AM--10:25 AM</b>|
 |Where: | Porter Academy 144 |
 |Who: | [Dr. Andrew Quinn](http://arquinn.github.io)|
-|Office hours: | TBD |
+|Office hours: | Wednesday 3-4PM, Thursday 1-2PM |
+|Course Calendar: | [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19jNjU5NmVlNWJkZjBjMTM2YzkxOTBkNWVjYzcxOTUwMWNiMGYyOTBkMjkyOGY2Zjc4OWNkZWZiOTE5ZDgzNTFmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)|
 |Prerequisites: | CSE 120 and CSE 130 |
 |Text: | [Operating Systems, Three easy pieces, Arpaci-Dusseau & Arpaci-Dusseau](https://pages.cs.wisc.edu/~remzi/OSTEP/) |
 |TA: | [Leo Conrad-Shah](https://www.ssrc.ucsc.edu/person/lconrads.html)|
