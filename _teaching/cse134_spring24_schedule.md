@@ -1,7 +1,7 @@
 ---
 layout: class
 title: CSE 134
-term: Winter
+term: Spring
 description: <s>Embedded</s> Operating Systems
 year: 2023-2024
 category: schedule
@@ -17,7 +17,7 @@ at the beginning of each week for updates.
 |---------|-------|--------------------------|------------------------------------------------|----------------|-----|
 | Week 1  | 04/01 | Syllabus Day             | [slides](/assets/pdf/134/l00.pdf)              |                |-----|
 | Week 1  | 04/03 | Introduction to OS       | [notes](/assets/pdf/134/l01-intro-to-OSes.pdf) | [OSTEP Intro](https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf) | |
-| Week 1  | 04/05 | Introdcution to Pintos   |                                   |                | [HW0](https://canvas.ucsc.edu/courses/73382/assignments/574673?module_item_id=1284211) |
+| Week 1  | 04/05 | Introduction to Pintos   |                                   |                | [HW0](https://canvas.ucsc.edu/courses/73382/assignments/574673?module_item_id=1284211) |
 | Week 2  | 04/08 | Concurrency Review       |                                   | Review: [OSTEP Locks](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) <br /> Review: [OSTEP Cond Vars](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) <br /> Review: [OSTEP Semaphores](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | HW1 |
 | Week 2  | 04/10 | Advanced Concurrency     |                                   | [OSTEP Concurrent Data Structures](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)  | |
 | Week 2  | 04/12 | Concurrency in Pintos    |              |                |      |
