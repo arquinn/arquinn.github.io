@@ -20,12 +20,12 @@ at the beginning of each week for updates.
 | Week 1  | 04/05 | Introduction to Pintos   | [HW1 Doc](/assets/pdf/134/hw1-intro-to-pintos.pdf) |                | [HW0](https://canvas.ucsc.edu/courses/73382/assignments/574673?module_item_id=1284211) |
 | Week 2  | 04/08 | Concurrency Review       | [notes](/assets/pdf/134/l02-concurrency-review.pdf)| Review: [OSTEP Locks](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf) <br /> Review: [OSTEP Cond Vars](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) <br /> Review: [OSTEP Semaphores](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-sema.pdf) | [HW1](https://canvas.ucsc.edu/courses/73382/assignments/574673?module_item_id=1284211) <br /> [HW1 Doc](/assets/pdf/134/hw1-intro-to-pintos.pdf) |
 | Week 2  | 04/10 | Advanced Concurrency     | [notes](/assets/pdf/134/l03-advanced-concurrency.pdf) | [OSTEP Concurrent Data Structures](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)  | |
-| Week 2  | 04/12 | Concurrency in Pintos    |              |                |      |
-| Week 3  | 04/15 | Processes and Scheduling |              |            TBD |  [HW2](https://canvas.ucsc.edu/courses/73382/assignments/583791) |
-| Week 3  | 04/17 | Processes and Scheduling |              |            TBD |      |
-| Week 3  | 04/19 | Processes and Scheduling |              |            TBD | [A1](/assets/pdf/134/p01.pdf) |
-| Week 4  | 04/22 | Virtual Memory W1        |              |            TBD |  HW3 |
-| Week 4  | 04/24 | Virtual Memory W1        |              |            TBD |      |
+| Week 2  | 04/12 | Concurrency in Pintos    | N/A             | N/A                |      |
+| Week 3  | 04/15 | Processes and Scheduling | [notes](/assets/pdf/134/l04-processes.pdf)         | [OSTEP Processes](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf) <br /> [OSTEP Direct Execution](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf) |  [HW2](https://canvas.ucsc.edu/courses/73382/assignments/583791) |
+| Week 3  | 04/17 | Processes and Scheduling | --Power Outage--                                   |  N/A            |      |
+| Week 3  | 04/19 | Processes and Scheduling |  [notes](/assets/pdf/134/l05-scheduling.pdf)       | [OSTEP Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) | [A1](/assets/pdf/134/p01.pdf) |
+| Week 4  | 04/22 | Unix Process APIs and Pintos | N/A      | [OSTEP Process API](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) |  |
+| Week 4  | 04/24 | Virtual Memory W1        |              |            TBD |  HW3 |
 | Week 4  | 04/26 | Virtual Memory W1        |              |            TBD |      |
 | Week 5  | 04/29 | Virtual Memory W2        |              |            TBD |  HW4 |
 | Week 5  | 05/01 | Virtual Memory W2        |              |            TBD |      |
