@@ -25,12 +25,12 @@ at the beginning of each week for updates.
 | Week 3  | 04/17 | Processes and Scheduling | --Power Outage--                                   |  N/A            |      |
 | Week 3  | 04/19 | Processes and Scheduling |  [notes](/assets/pdf/134/l05-scheduling.pdf)       | [OSTEP Scheduling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched.pdf) | [A1](/assets/pdf/134/p01.pdf) |
 | Week 4  | 04/22 | Unix Process APIs and Pintos | N/A      | [OSTEP Process API](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf) |  |
-| Week 4  | 04/24 | Virtual Memory W1        |              |            TBD |  HW3 |
+| Week 4  | 04/24 | Virtual Memory W1        | [notes](/assets/pdf/134/l06-virtual-memory-intro.pdf)             | [OSTEP Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf) <br /> [OSTEP Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf) <br /> [OSTEP Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)|  HW3 |
 | Week 4  | 04/26 | Virtual Memory W1        |              |            TBD |      |
 | Week 5  | 04/29 | Virtual Memory W2        |              |            TBD |  HW4 |
 | Week 5  | 05/01 | Virtual Memory W2        |              |            TBD |      |
-| Week 5  | 05/03 | A3 Walkthrough           |              |            TBD |   A2 |
-| Week 6  | 05/06 | Virtual Memory W3        |              |            TBD |  HW5 |
+| Week 5  | 05/03 | A3 Walkthrough           |              |            TBD |      |
+| Week 6  | 05/06 | Virtual Memory W3        |              |            TBD | [A2](/assets/pdf/134/p02.pdf)     |
 | Week 6  | 05/08 | Virtual Memory W3        |              |            TBD |      |
 | Week 6  | 05/10 | Virtual Memory W3        |              |            TBD |      |
 | Week 7  | 05/13 | File Systems W1          |              |            TBD |  HW6 |
