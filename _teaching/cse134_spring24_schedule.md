@@ -44,5 +44,6 @@ at the beginning of each week for updates.
 | Week 9  | 05/31 | File Systems W3          |              |            TBD |      |
 | Week 10 | 06/03 | Advanced Topics          |              |            TBD |  HW9 |
 | Week 10 | 06/05 | Advanced Topics          |              |            TBD |      |
-| Week 10 | 05/07 | Advanced Topics          |              |            TBD |   A4 |
+| Week 10 | 05/07 | Advanced Topics          |              |            TBD |      |
 | Week 11 | 06/10 | *Final Exam*             |              |                |      |
+| ---     | 06/13 | --                       |              |                | [A4](/assets/pdf/134/p04.pdf)
