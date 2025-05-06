@@ -1,8 +1,6 @@
 ---
 level: masters
-year: 2022
-at: Kwil
-atweb: https://www.kwil.com/
+grad_year: 2022
 web: https://www.linkedin.com/in/charitha-reddy
 ---
 Charitha Bandi

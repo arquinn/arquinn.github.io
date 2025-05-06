@@ -5,7 +5,7 @@ authors:
   - Pooneh Safayenikoo
   - Jiacheng Ma
   - Tanvir Ahmed Khan
-  - Andrew Quinn
+  - Andi Quinn
 
 booktitle: Proceedings of the 5th Young Architects Workshop
 month: March
@@ -13,7 +13,6 @@ year: 2023
 abbr: YArch
 date: 2023-03-01 12:00:00-0000
 location: Vancouver, BC, Canada
-pdf: https://arxiv.org/pdf/2303.06153.pdf
 type: workshop
 
 abstract: "The emerging CXL.mem standard provides a new type of byte-addressable

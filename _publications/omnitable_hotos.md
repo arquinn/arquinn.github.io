@@ -1,7 +1,7 @@
 ---
 title: "You Can't Debug What You Can't See: Expanding Observability with the OmniTable"
 authors:
-  - Andrew Quinn
+  - Andi Quinn
   - Jason Flinn
   - Michael Cafarella
 booktitle: Proceedings of the Workshop on Hot Topics in Operating Systems
@@ -10,7 +10,6 @@ year: 2019
 abbr: HotOS
 date: 2019-05-01 12:00:00-0000
 location: Bertinoro, Italy
-pdf: quinn19.pdf
 type: workshop
 abstract: "The effectiveness of a debugging tool is fundamentally
                   limited by what program state it can observe. Yet,

@@ -5,7 +5,7 @@ authors:
   - Gefei Zuo
   - Kevin Loughlin
   - Haoyang Zhang
-  - Andrew Quinn
+  - Andi Quinn
   - Baris Kasikci
 
 
@@ -18,7 +18,6 @@ year: 2022
 abbr: ASPLOS
 date: 2022-02-01 12:00:00-0000
 location: Lausanne, Switzerland
-pdf: ma22.pdf
 type: conference
 
 abstract: "Software and hardware development cycles have traditionally

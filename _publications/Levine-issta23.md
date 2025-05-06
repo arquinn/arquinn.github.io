@@ -5,7 +5,7 @@ authors:
   - Reese Levine
   - Mingun Cho
   - Devon McKee
-  - Andrew Quinn
+  - Andi Quinn
   - Tyler Sorensen
 
 booktitle: Proceedings of the 32nd ACM SIGSOFT International Symposium on
@@ -16,7 +16,6 @@ year: 2023
 abbr: ISSTA
 date: 2023-07-17 12:00:00-0000
 location: Seattle, WA, USA
-pdf: Levine-issta23.pdf
 type: conference
 
 award:

@@ -3,7 +3,7 @@ title: "Execution Reconstruction: Harnessing Failure Reoccurrences for Failure R
 authors:
   - Gefei Zuo
   - Jiacheng Ma
-  - Andrew Quinn
+  - Andi Quinn
   - Pramod Bhatotia
   - Pedro Fonseca
   - Baris Kasikci,
@@ -17,7 +17,6 @@ year: 2021
 abbr: PLDI
 date: 2021-07-01 12:00:00-0000
 location: Virtual, USA
-pdf: zuo21.pdf
 type: conference
 
 abstract: "Reproducing production failures is crucial for software

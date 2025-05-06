@@ -3,14 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Andrew
-middle_name: R.
+
+first_name: Andi
 last_name: Quinn
+description: >- # this means to ignore newlines (I hope)
+  This is the professional website of Andi Quinn.  She is an Assistant Professor
+  of Computer Science at UC Santa Cruz, a researcher of computer systems focusing
+  on system reliability, a transwoman, and dog-mom.
 email: aquinn1@ucsc.edu
-description: My Homepage.
+
+email: aquinn1@ucsc.edu
 footer_text:
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>; hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 icon: #🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -19,39 +23,21 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-# -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
-max_width: 880px
-
-# TODO: add layout settings (single page vs. multi-page)
-
-# -----------------------------------------------------------------------------
-# Open Graph
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+max_width: 600px
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
 github_username: arquinn # your GitHub user name
-gitlab_username: # your GitLab user name
 
-twitter_username: AndrewRQuinn # your Twitter handle
-linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -63,28 +49,6 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-
-contact_note: #>
-#  You can even add a little note about which of these is the best way to reach you.
-
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-## blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-## blog_description: a simple whitespace theme for academics
-## permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: false
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -152,7 +116,7 @@ github: [metadata]
 # -----------------------------------------------------------------------------
 
 scholar:
-  name: Andrew Quinn
+  name: Andi Quinn
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -164,11 +128,9 @@ enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-## enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 # -----------------------------------------------------------------------------

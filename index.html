@@ -1,0 +1,263 @@
+---
+layout: default
+permalink: /
+---
+
+<section id="landing" class="section" >
+  <h1 style="font-size: 3rem;">Hi, I'm Andi! 👋</h1>
+  <p style="font-size: 1.25rem;">Welcome to my little corner of the Internet.</p>
+</section>
+
+<section id="about" class="section">
+  <h2>About</h2>
+  <div>
+    <p>I am a transwoman 🏳️‍⚧️ from Santa Cruz, California 🏄‍♀️.  This website is
+    about the professional work that I do as an assistant professor of Computer
+    Science and Engineering at the University of California, Santa Cruz.  I went
+    by another name for the first 33 years of my life, Andrew Quinn, so you
+    might see something about me with that name instead.</p>
+
+    <p>I lead a research lab at UCSC, internally called SLUGLab 🐌, which works
+    on projects to make software systems more reliable.  I also help lead the
+    Center for Research in Systems and Storage (CRSS), which works on improving
+    storage for new workloads (e.g., machine learning) and new technologies
+    (e.g., far memory).  Overall, my students and I like to build software
+    systems that help other developers build better software systems.  Right
+    now, we're building systems to help with debugging, securing system storage,
+    extending applications, exploiting far-memory technology, using shared
+    libraries, and improving Kubernetes reliability.</p>
+
+    <p></p>
+  </div>
+</section>
+<section id="news" class="section">
+  <h2>News</h2>
+
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      {% assign news = site.news | reverse %}
+      {% for item in news limit: site.news_limit %}
+      <tr>
+        <th scope="row">{{ item.date | date: "%m/%Y" }}</th>
+        <td>
+          {% if item.inline %}
+          {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+          <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+</section>
+
+{% assign active = site.team | where_exp: "item", "item.grad_year == nil" | sort: "year" | reverse %}
+{% assign grads = site.team | where_exp: "item", "item.grad_year" | sort: "grad_year" | reverse %}
+<section id="team" class="section">
+  <h2 class="teamname">Team</h2>
+  <div class="team d-flex flex-wrap justify-content-center gap-4">
+    <div class="student-table">
+      <h3 class="teamname">Active</h3>
+      <table class="table table-sm table-borderless">
+        {% for student in active %}
+        <tr>
+          <td class="student-data">
+            {% if student.web %}
+              <a href="{{ student.web }}">{{ student.content | remove:'<p>' | remove:'</p>' }}</a>
+            {% else %}
+              {{ student.content | remove:'<p>' | remove:'</p>' }}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="student-table">
+      <h3 class="teamname">Alumni</h3>
+      <table class="table table-sm table-borderless">
+        {% for student in grads %}
+        <tr>
+          <td class="student-data">
+            {% if student.web %}
+              <a href="{{ student.web }}">{{ student.content | remove:'<p>' | remove:'</p>' }} ({{student.level}}, {{student.grad_year}})</a>
+            {% else %}
+              {{ student.content | remove:'<p>' | remove:'</p>' }} ({{student.level}}, {{student.grad_year}})
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+<section id="teaching" class="section">
+  <h2>Teaching</h2>
+  <p> I've taught three classes while at UC Santa Cruz: CSE 231: Advanced
+  Operating systems (Graduate OS), CSE 130: Principles of Computer System
+  Design, and CSE 134: <s>Embedded</s> Operating Systems.  The CSE department
+  maintains an
+  up-to-date <a href="https://courses.engineering.ucsc.edu/courses/cse/2024">course
+  schedule</a>x that identifies the quarters in which I will be teaching each
+  course.
+
+  <p><strong> CSE 231: Advanced Operating Systems</strong> We discuss the issues
+    facing operating systems with a focus on historical context.  I structure
+    this course as a seminar: we read papers, discuss papers, and students
+    complete a final course project.  I taught 231 in the Fall 2021, Fall 2022,
+    Winter 2024, and Spring 2025. </p>
+
+  <p><strong> CSE 130: Principles of Computer System Design</strong> We discuss
+    the challenges of building large and complex computer systems; overall, the
+    goal of the course is help students go from working with self-contained
+    algorithms and ADTs to designing/implementing large software systems.  The
+    course describes modularity, client-server design, virtualization,
+    concurrency/synchronization, and performance analysis.  I taught CSE 130 in
+    Spring 2022, Winter 2023, Fall 2023, and Fall 2024.  I also serve as the
+    academic coordinator for the course when I am not teaching it. </p>
+
+  <p><strong> CSE 134: <s>Embedded</s> Operating Systems</strong>. We discuss
+    the challenges of building operating systems (the class originally discussed
+    these challenges in the context of embedded systems, but I prefer to provide
+    a more general treatment).  The course covers the system call interface,
+    virtual memory, and file systems.  It includes a term-long project in which
+    students work in pairs to add core functionality to an operating system
+    (PintOS).  I taught CSE 134 in Spring 2024. </p>
+
+
+</section>
+
+<section id="publications" class="section">
+  <h2>Publications</h2>
+  <div class="publications">
+{% assign conferences = site.publications | where: "type", "conference" | reverse %}
+{% assign workshops = site.publications | where: "type", "workshop" | reverse %}
+
+<h3> Conferences </h3>
+<ol class="bibliography">
+{% for paper in conferences %}
+  <li>
+  <div class="row">
+    <div class="abbr">
+      {% if paper.abbr %}
+        <abbr class="badge">{{paper.abbr}}</abbr>
+      {% endif %}
+      {% for award in paper.award %}
+           <p class="award"> {{award}} </p>
+      {% endfor %}
+    </div>
+
+    <div class="main">
+      <div class="citation">
+      <p>
+      <strong>{{paper.title}}.</strong>
+      {% for author in paper.authors %}
+        {% unless forloop.last %}
+	   {% if author == site.scholar.name %}
+	      <em>{{author}}</em>,
+	   {% else %}
+	      {{author}},
+	   {% endif %}
+	{% else %}
+ 	   {% if author == site.scholar.name %}
+	      <em>{{author}}</em>.
+	   {% else %}
+	      {{author}}.
+	   {% endif %}
+	{% endunless %}
+      {% endfor %}
+      In {{paper.booktitle}}. {{paper.month}} {{paper.year}}
+      </p>
+      </div>
+      <div class="links">
+        {% if paper.abstract %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        {% endif %}
+	{% if paper.pdf %}
+	  {% if paper.pdf contains '://' %}
+	     <a href="{{ paper.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+	  {% else %}
+	     <a href="{{ paper.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+	  {% endif %}
+	{% endif %}
+	<!-- Hidden abstract block -->
+	{% if paper.abstract %}
+	  <div class="abstract hidden">
+	     <p>{{ paper.abstract }}</p>
+	  </div>
+	{% endif %}
+      </div> <!-- end of linkds -->
+    </div> <!-- end of col-sm-8-->
+  </div> <!--end of row-->
+  </li>
+{% endfor %}
+</ol>
+
+
+
+<h3> Workshops </h3>
+<ol class="bibliography">
+{% for paper in workshops %}
+  <li>
+  <div class="row">
+    <div class="abbr">
+      {% if paper.abbr %}
+        <abbr class="badge">{{paper.abbr}}</abbr>
+      {% endif %}
+      {% for award in paper.award %}
+           <p class="award"> {{award}} </p>
+      {% endfor %}
+    </div>
+
+    <div class="main">
+      <div class="citation">
+      <p>
+      <strong>{{paper.title}}.</strong>
+      {% for author in paper.authors %}
+        {% unless forloop.last %}
+	   {% if author == site.scholar.name %}
+	      <em>{{author}}</em>,
+	   {% else %}
+	      {{author}},
+	   {% endif %}
+	{% else %}
+ 	   {% if author == site.scholar.name %}
+	      <em>{{author}}</em>.
+	   {% else %}
+	      {{author}}.
+	   {% endif %}
+	{% endunless %}
+      {% endfor %}
+      In {{paper.booktitle}}. {{paper.month}} {{paper.year}}
+      </p>
+      </div>
+      <div class="links">
+        {% if paper.abstract %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        {% endif %}
+	{% if paper.pdf %}
+	  {% if paper.pdf contains '://' %}
+	     <a href="{{ paper.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+	  {% else %}
+	     <a href="{{ paper.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+	  {% endif %}
+	{% endif %}
+	<!-- Hidden abstract block -->
+	{% if paper.abstract %}
+	  <div class="abstract hidden">
+	     <p>{{ paper.abstract }}</p>
+	  </div>
+	{% endif %}
+      </div> <!-- end of linkds -->
+    </div> <!-- end of col-sm-8-->
+  </div> <!--end of row-->
+  </li>
+{% endfor %}
+</ol>
+</section>
