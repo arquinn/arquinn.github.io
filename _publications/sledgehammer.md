@@ -1,7 +1,7 @@
 ---
 title: "Sledgehammer: Cluster-Fueled Debugging"
 authors:
-  - Andrew Quinn
+  - Andi Quinn
   - Jason Flinn
   - Michael Cafarella
 
@@ -13,7 +13,6 @@ year: 2018
 abbr: OSDI
 date: 2018-10-01 12:00:00-0000
 location: Carlsbad, CA
-pdf: quinn18.pdf
 type: conference
 
 abstract: "Current debugging tools force developers to choose between

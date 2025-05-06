@@ -6,7 +6,7 @@ authors:
   - Leo Conrad-Shah
   - Austen Barker
   - Ethan Miller
-  - Andrew Quinn
+  - Andi Quinn
   - Darell D. E. Long
 
 booktitle: Proceedings of the 3rd Workshop on Challenges and Opportunities of

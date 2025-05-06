@@ -1,7 +1,7 @@
 ---
 title: "JetStream: Cluster-Scale Parallelization of Information Flow Queries"
 authors:
-  - Andrew Quinn
+  - Andi Quinn
   - David Devecsery
   - Peter M. Chen
   - Jason Flinn
@@ -14,7 +14,6 @@ year: 2016
 abbr: OSDI
 date: 2016-11-01 12:00:00-0000
 location: Savannah, Ga
-pdf: quinn16.pdf
 type: conference
 abstract: Dynamic information flow tracking (DIFT) is an importanttool
                   in many domains, such as security, debugging,

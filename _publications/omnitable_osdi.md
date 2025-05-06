@@ -1,7 +1,7 @@
 ---
 title: "Debugging the OmniTable Way"
 authors:
-  - Andrew Quinn
+  - Andi Quinn
   - Michael Cafarella
   - Jason Flinn
   - Baris Kasikci
@@ -14,7 +14,6 @@ year: 2022
 abbr: OSDI
 date: 2022-07-01 12:00:00-0000
 location: Carlsbad, CA
-pdf: quinn22.pdf
 type: conference
 
 abstract: "Debugging is time-consuming, accounting for roughly 50% of

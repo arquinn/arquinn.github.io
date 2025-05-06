@@ -5,7 +5,7 @@ title: "Vidi: Record Replay for Reconfigurable Hardware"
 authors:
   - Gefei Zuo
   - Jiacheng Ma
-  - Andrew Quinn
+  - Andi Quinn
   - Baris Kasikci
 
 booktitle: Proceedings of the 28th ACM International Conference on Architectural
@@ -16,7 +16,6 @@ year: 2023
 abbr: ASPLOS
 date: 2023-03-25 12:00:00-0000
 location: Vancouver, BC, Canada
-pdf: zuo23.pdf
 type: conference
 
 abstract: ""

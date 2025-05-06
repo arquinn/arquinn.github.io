@@ -4,7 +4,7 @@ authors:
   - Ian Neal
   - Ben Reeves
   - Ben Stoler
-  - Andrew Quinn
+  - Andi Quinn
   - Youngjin Kwon
   - Simon Peter
   - Baris Kasikci
@@ -17,7 +17,6 @@ year: 2020
 abbr: OSDI
 date: 2020-11-01 12:00:00-0000
 location: Virtual, USA
-pdf: neal20.pdf
 type: conference
 abstract: "Persistent Memory (PM) can be used by applications to
                   directly and quickly persist any data structure,

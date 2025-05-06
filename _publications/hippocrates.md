@@ -2,7 +2,7 @@
 title: "Hippocrates: Healing Persistent Memory Bugs without Doing Any Harm"
 authors:
   - Ian Neal
-  - Andrew Quinn
+  - Andi Quinn
   - Baris Kasikci
 
 booktitle: Proceedings of the 26th ACM International Conference on
@@ -14,7 +14,6 @@ year: 2021
 abbr: ASPLOS
 date: 2021-04-01 12:00:00-0000
 location: Virtual, USA
-pdf: neal21.pdf
 type: conference
 
 abstract: "Persistent memory (PM) technologies aim to revolutionize

@@ -11,7 +11,7 @@ authors:
   - Allen Baker
   - Raph Levien
   - David Neto
-  - Andrew Quinn
+  - Andi Quinn
   - Tyler Sorensen
 
 booktitle: Proceedings of the 28th ACM International Conference on Architectural
@@ -22,7 +22,6 @@ year: 2023
 abbr: ASPLOS
 date: 2023-03-25 12:00:00-0000
 location: Vancouver, BC, Canada
-pdf: Levine23.pdf
 type: conference
 
 award:

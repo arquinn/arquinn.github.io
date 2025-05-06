@@ -2,7 +2,7 @@
 title: "The Case for Determinism on the Edge"
 authors:
   - Matthew Furlong
-  - Andrew Quinn
+  - Andi Quinn
   - Jason Flinn
 booktitle: Proceedings of the 2nd USENIX Workshop on Hot Topics in Edge Computing
 month: July
@@ -10,7 +10,6 @@ year: 2019
 abbr: HotEdge
 date: 2019-07-01 12:00:00-0000
 location: Renton, Wa
-pdf: furlong19.pdf
 type: workshop
 
 abstract: "Emerging edge applications, such as augmented and virtual reality,
