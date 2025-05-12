@@ -3,11 +3,9 @@ name: Deploy
 on:
   push:
     branches:
-      - master
       - main
   pull_request:
     branches:
-      - master
       - main
 
 jobs:
@@ -33,7 +31,7 @@ jobs:
         if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
           echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
           echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
+        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. main, source etc
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
